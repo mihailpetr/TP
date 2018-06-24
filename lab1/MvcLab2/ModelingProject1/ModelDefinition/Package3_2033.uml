@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="adc64ddc-0ff6-4ba7-b8d0-a93dd66531b5"
+  name="Serialization"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="be5aeabb-9e5a-4c96-9d95-bfd141f182c5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSystem.Web.Script.Serialization"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="ecb6aaa8-2195-4bda-819d-694e00103039"
+        name="JavaScriptSerializer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="f71dfe1b-2164-4757-a1ab-926129c880ee"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.Extensions.dll&quot; Namespace%3DSystem.Web.Script.Serialization Type%3DJavaScriptSerializer"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="811760f1-e107-4011-8158-b3afd427ec24"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5f6e41a0-7b34-4ca4-872c-3c50f0953cbb">
+                <propertyInstance
+                  Id="6f516854-afa9-49c5-a62d-2cae1b75ad58"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b08fa459-3640-4d3e-a4b7-7141b3568f99">
+                <propertyInstance
+                  Id="677c85b2-3e63-40cb-b180-e6fda5cc2ad4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1455fe0a-a604-40ee-904c-6873e44f14af">
+                <propertyInstance
+                  Id="0490286f-67a2-439b-9842-549b7d4b77d2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a216cb9e-7285-440a-8a06-e0fb0ccd1831">
+                <propertyInstance
+                  Id="92ee8db7-0440-4c2b-83e7-86efabc7c5a6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fefb263c-8994-4f12-b7e9-4038050244b3">
+                <propertyInstance
+                  Id="346dc599-e25e-4de1-b37e-fffd7ea52d91"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

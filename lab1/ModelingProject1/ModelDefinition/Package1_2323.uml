@@ -1,0 +1,3544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="085b1c6a-184e-4f08-bb71-ec2e47bb49a8"
+  name="Models"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="af6afad9-3487-4009-a44f-6c5c27ba39d9"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMvcLab2.Models"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="79f66064-d3e3-42ee-b5ce-d0f84f38005a"
+        name="FoursquareModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="45c3b51d-62ac-458a-99d4-f667699d53c2"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="41719fa4-2d48-42c7-a902-37cfd8bec63d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be361c40-0411-4c14-af26-c382843f27bb">
+                <propertyInstance
+                  Id="8159f95e-627d-4ead-a0f0-07d1b3e79205"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4de06e56-25c4-4c48-b01b-4a8470f73735">
+                <propertyInstance
+                  Id="04f414df-b866-4938-aa39-b2d25f1a6ef4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="efd6eded-9a8c-43e9-8f0c-85609ff04555">
+                <propertyInstance
+                  Id="25e2b150-1497-4882-8eac-39de11c6359e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="199f6888-1fb9-45d8-aa96-337ff0f5c730">
+                <propertyInstance
+                  Id="46b0a18c-f43f-4deb-a5b0-2fd5d0ee23b5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c0d67de-e645-46f6-a830-607c1038aae4">
+                <propertyInstance
+                  Id="882144dd-4801-497e-853f-bbf30303c428"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="cd56be7b-5d2f-488c-88e7-2f185d4a00eb"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="meta"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="336e2639-0d5c-4667-b82f-094ba9d46b7b"
+              LastKnownName="Meta"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство meta ссылается на тип Meta.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9fa7182-c7b7-48fb-81b1-75d7718c7724"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9cf3db69-1f0b-4c0f-87ba-e501797438ae"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="a16f4705-0df1-48e9-a638-89e5518137b9"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5fc47c2c-cc47-4f1c-bc2b-5e8d09313957"
+                  name="meta"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="627072ba-010f-42b6-a06f-3299425f3df3"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="48d08a2d-3afc-42e9-9c2b-4a31ca104efa"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ebf92e5c-2742-472d-84f7-d9637221ab36"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="item"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="38c6dd25-80d4-46d6-8e5b-8a1a1c951010"
+              LastKnownName="Item"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство item ссылается на тип Item.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1c9dc62e-2ff7-4b3d-9b1b-5afcad52817e"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d01ec8d9-d0b9-4123-8be2-ae6996efb70e"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="38263cfe-c893-40b5-a7e4-178b8468d4cc"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="32583025-4133-4d3b-9317-b993ae2c965d"
+                  name="item"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b62f3cf8-85d6-45ed-99c8-6d5d826a9a3b"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="7cecdfcd-8e2c-40af-a0ea-93c51b46e3db"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7b110680-a9a3-4916-8e55-a8355a7c1903"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="notification"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="daf06e91-a6be-4c1b-9e0f-40a53e12255d"
+              LastKnownName="Notification"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство notification ссылается на тип Notification.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3f2eea1a-3301-4213-a633-31c5a6f9ab7a"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="7c2a2488-0a1c-4f4f-9aeb-547575e0c9fc"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="902b07d9-7bef-4d79-b670-344103ee1e98"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2459408d-c211-4344-a237-45b8a4585bfb"
+                  name="notification"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="2ee784ce-26b8-4451-aa11-b2d3412d0853"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="fc8b444e-d5c4-480c-bdbe-066120f0f4a5"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7043eeef-f411-4446-aa07-10d758d846b5"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="contact"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ec8c926e-6681-4f46-bef0-ff4d838cc58a"
+              LastKnownName="Contact"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство contact ссылается на тип Contact.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="caf70ead-40c5-4e5c-9e07-d991f3860f9c"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="98971aaa-6c69-4f76-8d2a-ddab2b796a5c"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0ee857c3-7e74-4ef3-81bf-4ebfccadaf9a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="de35a51c-50ff-4d52-bfab-cc337ffd35bf"
+                  name="contact"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="d140d6ab-8b68-4e7b-9f55-8f6f8ec22b17"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ccc1be1b-c254-4139-84ab-48b696991b81"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0b523b95-4538-49a6-af18-dfa4b215c0b2"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="location"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="60d0f3c7-7bfa-45f4-8062-f46b7e95e5ea"
+              LastKnownName="Location"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство location ссылается на тип Location.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e59c7450-6cd7-4d59-8540-0a76540533c6"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0e4a1dc5-4eaf-49eb-ba3f-cc3ad6494944"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="9288f6de-cf02-43f2-b720-d2ae4f8ed4ca"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="123a63f8-69cb-41e4-acb8-48619db13943"
+                  name="location"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="27f52a04-a691-4af6-a73d-5751cc7879f0"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="83ad0659-cee1-481b-b10f-72be06a957f0"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5cb524bb-c8f0-4e2a-b0cf-e4c232155444"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="icon"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7e91680a-6ca5-43b7-894c-c6da2ce5baab"
+              LastKnownName="Icon"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство icon ссылается на тип Icon.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8437247f-8c8d-4423-811e-942963731c0c"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="16a03d28-9347-4715-a8a3-131fd1b6ab64"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f790878b-266e-4a90-a565-c071b2bccb73"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6d85ce1c-7c4d-44a5-ac6d-0d2cc5f095f6"
+                  name="icon"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="234b105c-c14c-4235-a18c-6d019ae7d9db"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d934af4c-c07d-4436-a970-191d31265231"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9535dcbe-e2c3-4a71-b6da-a6cd16b123bb"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="category"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e6615819-a448-464f-aa7c-06d3549843a6"
+              LastKnownName="Category"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство category ссылается на тип Category.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="57f1521c-0482-482b-9534-2ee60ee4049c"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fdfc3550-72f6-4813-8291-dd4ee558b60a"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c460b7e3-5c15-4306-b1fc-7efd0b5cd6da"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="bbb1db3d-74c7-4966-81e4-860f2d4d54f8"
+                  name="category"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="e7de3af8-8906-46d5-95ce-354a0a300994"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d3d67aaf-a41d-44c9-bd56-f62c3f6f0b22"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f1cc96c5-250e-4457-8681-91be5257d0f5"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="stats"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e3a8bf53-794b-4f38-b40c-095f84486ac0"
+              LastKnownName="Stats"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство stats ссылается на тип Stats.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1dc3df81-23a1-453d-b010-b0e73794ce79"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c7376e95-972a-49fa-917b-6ad05f21bc23"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="2c284154-a409-4c0c-9740-6588a48f1c78"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8e5e9258-4054-4524-8854-61f73a1dbee4"
+                  name="stats"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="dd0d9368-91cf-4f2f-bdda-46f920abf0dd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="006acdcb-e28e-42ea-bf5c-c12e85420445"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ebf88f6e-17a2-4c49-a4be-33331510fa3d"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="specials"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4dd57fd7-1c94-4427-a6ec-2d29e4d4f7e9"
+              LastKnownName="Specials"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство specials ссылается на тип Specials.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3ed39a77-6aea-4dfb-bdcf-719cbec63220"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="593664fe-c8e6-4b8e-b6af-e5dede8aef18"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="4c39efb3-5c76-44fa-9d6e-058258698b78"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7038b72-44f2-4c0d-a6bb-971ce818b83e"
+                  name="specials"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="8402562f-5465-448a-b8b0-cdbea52c86bd"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d6325bf7-cbdd-47d7-adb2-8c61c200ff6f"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="09ee4925-9d73-42a3-b463-63671dee33bc"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="herenow"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="83d947a7-d170-4070-8aca-d0e7d5ddf4d5"
+              LastKnownName="HereNow"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство herenow ссылается на тип HereNow.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2c707d75-61b9-418f-86da-7e1d068b9daf"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="df933885-094f-40d1-a94d-69954749f8c7"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="d6b2066a-0115-4713-8ef9-1290cd6f37f6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3e431b5e-04f3-4081-aa6c-71f70d68a68b"
+                  name="herenow"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="a43b8971-a6be-4b80-81e3-726e711dd08e"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="bb41aaca-73d2-4c1a-a360-ec1e1220f57b"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="70a41551-1359-4781-9c88-424e25ff7288"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="beenhere"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d1edfeff-ab0f-439a-a97e-b870f080d7fd"
+              LastKnownName="BeenHere"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство beenhere ссылается на тип BeenHere.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e8f20172-6d0f-4835-8ccc-864975e383d1"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="96d5625b-1e88-48ae-864d-96c788b57f65"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b1b2bfb9-219c-447a-9bd7-4333e02c8050"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cd84a1d9-f10a-40e4-824b-765b66056293"
+                  name="beenhere"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="47c15ed8-5498-43bd-bc0a-f903221dd971"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6aca81d2-67e0-4e2d-85a3-72f7ef0184f3"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e96e8210-b592-4e92-990a-a5199c2408bf"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="menu"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c9ace832-9e54-4c2b-b4f2-01e7186a5c25"
+              LastKnownName="Menu"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство menu ссылается на тип Menu.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d6f8724-98eb-47d8-927d-a4c549f33a96"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="04c10e9c-7b1a-4db1-9324-1a220f1b71e2"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8ba77650-b924-46d7-8901-7ca8dc71dbf9"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c14bec5f-3390-4e1f-aba9-c14bc2e752dd"
+                  name="menu"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="9705dd35-9dbe-4842-beda-66690404062c"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="ced56293-c876-4db4-a232-aa0ee3d6a2c9"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3eadb43f-1e7e-46f2-be08-e78027ecaf36"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="venuepage"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="74b7e6b4-20ba-4d68-b970-911fe742e5a5"
+              LastKnownName="VenuePage"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство venuepage ссылается на тип VenuePage.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cb29bb66-73ba-4f34-95e4-b77e785d2906"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="39bcade8-da92-4265-b9d9-91089e0d637d"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b0a65dde-cdb7-4807-b7dc-0007fb9d8992"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2e6d6919-92c9-41f2-96ff-45e30fc85fa3"
+                  name="venuepage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b6d89a69-5a88-437d-b089-0b3e310f507b"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="c2258ef5-7a3d-4c5b-82ca-bc0daa2eca4d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="ca4ee7d6-023e-4d61-8791-1fcb8aeb59dd"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="venue"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="8748fb78-6e2b-444a-9a98-55998b77ca8b"
+              LastKnownName="Venue"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство venue ссылается на тип Venue.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="83e762d0-49ab-4574-b182-3756c69a515c"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="744bc3a7-313a-4866-bb79-e14e5aec7aeb"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="3e42bb9e-2a6d-4041-a58d-48590869999e"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="21e730c6-d869-4e62-80db-4722136aa66d"
+                  name="venue"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="33e531a4-bb1a-40e1-8d89-a739bfab8873"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="592805b9-6359-4d70-92ad-4e030222927d"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="151db83c-1be7-4df6-9221-e7fca0e08006"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="response"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="22450719-530c-448a-bdd9-298e30369a01"
+              LastKnownName="Response"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство response ссылается на тип Response.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="85c28052-d3e2-4a42-8301-a5c0929b7a2b"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="5f1cb6aa-5d72-4c36-925b-aae202e1c493"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="b08f8953-f8e4-4f43-9d3e-ca22e90d3813"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="54ef3c4d-5b3f-418e-b45e-479b87790780"
+                  name="response"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="89a6bbd7-6f0a-406e-a02f-c653ea29a96c"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="f2dd8ea5-8139-47a7-aaa1-78f7fbeb6510"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7e5e7782-1e9d-4824-88a5-1ba095e58691"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="rootobject"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d0c833f7-330f-485c-aa5d-bffec7912b8f"
+              LastKnownName="RootObject"
+              LastKnownLocation="Package1_2323.uml" />
+            <description>Свойство rootobject ссылается на тип RootObject.</description>
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4b0c9d90-43ed-48e0-afdd-234644d3c6fc"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="380fdd3e-903c-4c1d-9310-d4ca59b34b73"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="58e7535f-8a67-4f5d-ac4c-dc92ce978ed4"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7a9c1bf5-6432-41d0-a494-4332be7b2b4c"
+                  name="rootobject"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="86eaf483-96e7-480c-aca5-8d8940ba469a"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="1d7fba36-57fc-48fd-bdeb-837337ab3f0e"
+                      name="Upper"
+                      value="1" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="612353d8-150a-4ec9-b5df-db3cf60eaa22"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="Helper"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="2d4dc35e-ba26-46b6-acd4-f5bcb1d9800e"
+              LastKnownName="Helper"
+              LastKnownLocation="Package_0919.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d884e59e-e6c7-4254-9b2f-142218089f70"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d97edf4f-ca9f-4aa8-ad23-5735d7b41a6d"
+                  name="Helper"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b9345a73-6e25-43cb-b258-407c280b26ef"
+            isDerived="false"
+            sourceEndRoleName="FoursquareModel"
+            targetEndRoleName="Interactor"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d03a68bf-ca72-4d21-aff3-610dceeed1e3"
+              LastKnownName="Interactor"
+              LastKnownLocation="Package_0919.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="be5f25fd-dc27-451f-a0ea-8ae218c2be2a"
+                  name="FoursquareModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="253a1bfc-23d2-47c6-a451-40aa808aa062"
+                  name="Interactor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="2d07e4db-1e1d-4926-97af-1aad6d8530fd"
+            name="meta"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fd606d5c-bfc7-4d0b-a991-c81e00f27a61"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dmeta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="76a4e003-25bf-4230-82a2-62b8cdb2f957"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5565e115-be10-4f03-a5d2-46132627af64">
+                    <propertyInstance
+                      Id="21285be9-c533-45e2-a13e-613c213b04f9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1cdd9a6-a34f-4987-80e0-6f043066d7df">
+                    <propertyInstance
+                      Id="08d492a8-4bbf-4804-88e6-1f781c45db16"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0ba29af-51dc-45b7-8f51-5f1ce67a5694">
+                    <propertyInstance
+                      Id="2fd65217-ad9d-4fdd-a2f6-608f811e64c3"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9697304f-c3b6-45ee-a5c7-c5c9920af7a7">
+                    <propertyInstance
+                      Id="ca720d95-20e2-4a19-b581-4e1514a6d3f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a19db399-0446-4fa3-83f9-8efbd23cadc4">
+                    <propertyInstance
+                      Id="3ca5ec0d-e880-48c7-8030-af5cdd8cab6a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2364d607-69e2-42f1-b0c4-24beb39526ec">
+                    <propertyInstance
+                      Id="16733b3b-14ac-4e0d-86ae-ff876bf5a24c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63714b45-e8f9-49a9-9f04-69871887f179">
+                    <propertyInstance
+                      Id="fd71b749-ac43-41b9-a406-cadd59122ef1"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="336e2639-0d5c-4667-b82f-094ba9d46b7b"
+                LastKnownName="Meta"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b5650e6d-3ce3-452a-9339-2f4052a0b9de"
+            name="item"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1e10e9e8-6835-4c15-8938-bd000be01f20"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Ditem"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="df561489-a1dd-452f-a7a1-ce564e2c21a4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b2619f1-0f1c-43cc-b953-5a5619046bf4">
+                    <propertyInstance
+                      Id="86ccf6b6-d639-46f9-aa3e-7a4a9f247f57"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="843c3484-9459-4773-ab95-9a0b178888e9">
+                    <propertyInstance
+                      Id="979e57a1-e19d-40cc-a9d7-d17480578325"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be5412ad-8e1d-4ff3-abc9-fdbafaa61a3d">
+                    <propertyInstance
+                      Id="84113f2e-0dd4-4917-b4e5-a751184c73e9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b985a2e-1d47-4407-8dc6-6dae0176d344">
+                    <propertyInstance
+                      Id="e4a8f41d-64e5-4248-96e5-755a92f1f30f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5177cdf3-65d3-46fa-8667-a4d6073677a6">
+                    <propertyInstance
+                      Id="6d36c377-904e-4dfa-97f7-0044a60c6100"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01e133b1-97d9-4b23-adc2-5b492bbbc986">
+                    <propertyInstance
+                      Id="46d3cd2a-78ce-49ba-ad49-7f293bc1e2a7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61e027be-00f1-429a-ace4-ee2c74fe8e1e">
+                    <propertyInstance
+                      Id="e056c7ef-5ab7-4ff1-b60b-38254f1a0896"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="38c6dd25-80d4-46d6-8e5b-8a1a1c951010"
+                LastKnownName="Item"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b26c4fe9-2968-480d-9c06-2f0704756184"
+            name="notification"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e0511d98-1a94-44f0-9819-6e95af4806b8"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dnotification"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f04f32ec-5dcb-4724-b4ca-c6c0469feb5a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="080d13e4-b68a-4f51-954e-634b3c40382c">
+                    <propertyInstance
+                      Id="3db9bb5e-b2af-4a3b-be83-ddd564e54f25"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1089cb8f-7fd7-4bf9-9e81-0edb5b9c03ca">
+                    <propertyInstance
+                      Id="624513b3-76d1-4709-854a-74819f48b75e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c04779bd-f695-4fdb-a2dc-821a9b427801">
+                    <propertyInstance
+                      Id="a0f501e1-582d-4812-99a6-93ffcb20d967"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a903ccc-2b8a-4511-b927-d619dbcfa135">
+                    <propertyInstance
+                      Id="84547bca-aded-46c8-a1e5-c3fc731191bb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74c464e5-df00-4947-bbb3-0f18a0b2a893">
+                    <propertyInstance
+                      Id="84425c11-00ac-4ea7-8b07-40c3865eb055"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8995b9e6-c31f-4552-ba8a-32454799db33">
+                    <propertyInstance
+                      Id="4a3030e2-8177-41eb-86e0-72170e4fd521"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="daa1d4ad-c4a7-4363-bfea-01399030bf01">
+                    <propertyInstance
+                      Id="0b3a5501-1ea0-4765-b0f7-17e048dc3ae9"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="daf06e91-a6be-4c1b-9e0f-40a53e12255d"
+                LastKnownName="Notification"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1fb5863a-f400-4497-82f3-27c362cf4c6f"
+            name="contact"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8775041e-0d40-4211-8f9c-6a5a0ccb7a61"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dcontact"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="84751158-0f9c-4084-b6ee-5f6ab9d2ea6a"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78a67bf5-c42d-4411-b711-f1bbbeb95e88">
+                    <propertyInstance
+                      Id="2c9d737c-7d09-4582-8456-a0177fd011fe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a5df621-e663-456e-a1b6-2389c0167509">
+                    <propertyInstance
+                      Id="226e5d85-2fb9-486a-a66e-02acbe14b686"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19e3af4b-de31-4c7d-b047-7f06ef130883">
+                    <propertyInstance
+                      Id="02370d58-60cf-43ea-8478-a153d5788d42"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcbd19ba-7e4e-4e17-bbc2-10a45b7f2080">
+                    <propertyInstance
+                      Id="ba3ac6f2-27b2-4302-9fea-5a133d1b8f84"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="586e6849-1c24-45f8-9dd1-1f2ed1fd9cd5">
+                    <propertyInstance
+                      Id="2473410d-e589-4c00-9367-ae180c87abed"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40578043-f63f-4568-b363-3b1106b46a0a">
+                    <propertyInstance
+                      Id="bfa3fb06-b419-4a81-b5e3-026955118eea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48c4d1ef-8854-4254-8c31-b09fdd7e1081">
+                    <propertyInstance
+                      Id="c58f170f-e576-460f-bc15-9bfb4d01c521"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ec8c926e-6681-4f46-bef0-ff4d838cc58a"
+                LastKnownName="Contact"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="343c5e21-c286-4690-9007-4b5f1e03c591"
+            name="location"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a567ee92-ad67-4550-a049-a0200a743244"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dlocation"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d15b11c0-4ed1-4098-af73-58230e91e198"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d8f83a5-c940-47f4-b2e9-6ef5ff8a90ca">
+                    <propertyInstance
+                      Id="ab8a67b8-c426-4f6a-bd9f-a36e7505955f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bb91c41-fb08-43a5-80b8-16b61d9438e3">
+                    <propertyInstance
+                      Id="fb8d9316-f26f-4599-881e-8cd32007029e"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09cf9640-dbe5-4088-99e2-a11934c5ef25">
+                    <propertyInstance
+                      Id="cfe4139b-1733-4456-8d90-c76cd7ad10f2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83d9af46-228a-4998-8afb-1412020b86a8">
+                    <propertyInstance
+                      Id="0de67081-82b1-4731-ac2a-d114e3bf4c6f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34b8be1f-106f-46fe-a2b2-89fb3b54293c">
+                    <propertyInstance
+                      Id="625c2a74-b2b0-42aa-9294-cd7a8b5c48e0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16cff6d7-752c-45c4-a187-e91080050173">
+                    <propertyInstance
+                      Id="c45a22cb-49b4-4e7f-992f-a8801df69921"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab960b96-c89a-46b5-ae38-df5eea25cf7e">
+                    <propertyInstance
+                      Id="e48c9e8e-8486-4b54-a4c5-299510bbba5f"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="60d0f3c7-7bfa-45f4-8062-f46b7e95e5ea"
+                LastKnownName="Location"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1e8099c8-e5a4-4954-be40-72d48c3af677"
+            name="icon"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2a5c419f-ef5c-450b-b28a-cea18b7f6cfe"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dicon"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0aeca088-d387-49c1-aff2-141ffbb8bdcf"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="657e18dd-5404-4bea-901d-c46f53acb3b4">
+                    <propertyInstance
+                      Id="b68f76f9-d40e-4040-a97c-a3a723235b21"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abbc07bf-13f2-4ab8-84a8-67ba1b7457a4">
+                    <propertyInstance
+                      Id="7cd69c47-af31-49d7-9a63-0571f659c3ee"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b08fb9a-889c-4dc7-a31b-5ae26ddd3cf1">
+                    <propertyInstance
+                      Id="66f4c50f-6da3-4649-89d3-02f11f7da605"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c729e896-db3b-4e05-b6ef-f3827c60e72e">
+                    <propertyInstance
+                      Id="e95531eb-da66-4366-875c-6d37d80f8335"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef21b147-96e8-42bf-ad52-29465a253f5e">
+                    <propertyInstance
+                      Id="a41473b0-180e-4076-926b-02451e243598"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f66ab3c4-9aeb-41b2-a9e8-041f5c3e3652">
+                    <propertyInstance
+                      Id="949c31a1-f82e-4ea2-8030-fd2a2ec55b0f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c63278f0-2dd7-4d27-a1de-79a6f38962a0">
+                    <propertyInstance
+                      Id="4836823c-69f8-4e50-bc51-83b069c3c7c4"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="7e91680a-6ca5-43b7-894c-c6da2ce5baab"
+                LastKnownName="Icon"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1a3ba2f4-b3d6-425d-bdef-e8c98380f2e4"
+            name="category"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c215e9ce-c77f-451e-8dae-c61a7bfdcd6a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dcategory"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a72755f-90aa-4950-aa55-10145c8fc3ee"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5ac3ea0-67c1-41c5-a230-7b08774bb511">
+                    <propertyInstance
+                      Id="e53f9591-5a93-4945-b6b0-a33a5d8d90d0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71775c5d-e39c-439a-9ecc-b32fa34b1085">
+                    <propertyInstance
+                      Id="8f2395b4-cf35-4e28-aeb8-0e0e2b967b7f"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3643eadc-b005-4000-9ea3-138c1aad85b0">
+                    <propertyInstance
+                      Id="65a2212e-b206-4fe1-8d05-f45934c80b78"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db475881-9c61-44f4-8200-9e1f9029b56f">
+                    <propertyInstance
+                      Id="bffd7cce-cbde-461e-8371-99978781125f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60d7d17f-a01c-46c3-826a-633af068dcdb">
+                    <propertyInstance
+                      Id="76c987e5-cfaf-4454-a3e3-fcce8b3cb424"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b118d6d4-bea9-47ce-9c0d-28e44e796861">
+                    <propertyInstance
+                      Id="ce8afa0d-92ae-4c8e-8816-08d57570e4a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc48f360-d89b-4973-b1ec-4bade1a63d77">
+                    <propertyInstance
+                      Id="2221dcb3-cdf2-4ddb-a5fc-4879b669e1fc"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e6615819-a448-464f-aa7c-06d3549843a6"
+                LastKnownName="Category"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="17427ea9-8581-4114-9381-5ae738614c0b"
+            name="stats"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="04c1bfc2-cbad-4f9a-8cd0-6a47c1a10e4a"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dstats"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f389cdb8-b859-4dc4-8631-880becc74855"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc0d9a82-f646-4229-93d8-9a41fe9d84e5">
+                    <propertyInstance
+                      Id="3f402a31-aec3-4e91-ac83-52665ee62288"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0f13f23-d096-40a6-9e34-410435f5092d">
+                    <propertyInstance
+                      Id="f4a95fb0-25fb-46fc-98d4-c56e80f01a4d"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c317cf8e-b6f3-497d-b568-88544cf421c9">
+                    <propertyInstance
+                      Id="29479120-0df2-43d2-9c64-6fe8c8e307a9"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12da146a-70a6-41c6-849c-a9cbc39f6013">
+                    <propertyInstance
+                      Id="7eb8be9e-fae3-4538-a719-6d46a3a13936"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14645fc9-c9c8-4f73-9a59-1a1fb5ad8634">
+                    <propertyInstance
+                      Id="cbbee057-7797-409d-aa49-71ceb5af820a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c5db40b-df9a-4ad8-82e6-860056b6204a">
+                    <propertyInstance
+                      Id="20b2a70b-5366-4397-a078-bb0a9345be1e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea317de9-ece8-4eb0-84f2-f0fcfaf948b6">
+                    <propertyInstance
+                      Id="cb69ac51-3c2b-47b5-8dab-e933cd608017"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="e3a8bf53-794b-4f38-b40c-095f84486ac0"
+                LastKnownName="Stats"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e4a59d4b-ed2f-4f3e-8611-fecb6142b1a0"
+            name="specials"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f6dcb164-f80c-4eef-bfeb-341ab4c0c431"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dspecials"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5b843945-a238-4ecd-b148-d263464d1081"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f230102c-cd25-4dac-b41f-257d047b8c65">
+                    <propertyInstance
+                      Id="4a75e001-202d-4c3f-a06b-542fb47db655"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79596da7-1b96-4a41-b049-abefde98a20f">
+                    <propertyInstance
+                      Id="028377d1-178d-42ac-99a0-d97df9d3535c"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="975ffb90-12a5-499e-b210-a9890a9ea3ae">
+                    <propertyInstance
+                      Id="481a2793-08b3-40b6-ae6c-a3c1f75b257e"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7571a61-ac73-4ab4-821c-cdb86c810f2b">
+                    <propertyInstance
+                      Id="ab1d0330-745d-4720-bc9f-1969a6804302"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79779446-a77b-45cc-8ac2-b702b6b8c71b">
+                    <propertyInstance
+                      Id="85cac37a-5ed2-41d1-aff2-100490226120"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25e701c2-c052-44ab-8d66-e53f1ec5732b">
+                    <propertyInstance
+                      Id="ced8a59c-eb1a-4d18-b95b-bbb7ecb36b9b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17f68cde-c96d-4c92-8840-14ed0bc70a8a">
+                    <propertyInstance
+                      Id="906be0c5-cf6f-467e-9031-a6c5ed6f6c7c"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4dd57fd7-1c94-4427-a6ec-2d29e4d4f7e9"
+                LastKnownName="Specials"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d820d2e9-cfd3-44f3-9753-48e872f6c130"
+            name="herenow"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="aa672047-a087-41c9-80e2-2ec7f1c90eee"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dherenow"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e5e73322-4239-41c2-bc51-1ae1699f2c9e"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96e17c08-13b1-4817-9902-ced9c8443acd">
+                    <propertyInstance
+                      Id="35df1f9f-647f-4f57-8826-188697d4c390"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58c06860-e35a-4016-9b2a-424f430cf709">
+                    <propertyInstance
+                      Id="d5fdd2e2-15e1-419a-82fe-4b7104267bb2"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75e108ea-7a92-4649-ad6a-3b51eb0dab0e">
+                    <propertyInstance
+                      Id="6383c1b6-1421-4a28-8c7a-e671edf3ec06"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0840d1b2-a19e-4e34-8dba-71bfc25917f4">
+                    <propertyInstance
+                      Id="21917368-9c63-4085-be7d-3946086a444c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e9f7f0b-3f63-4747-ae8d-e7f27585322d">
+                    <propertyInstance
+                      Id="08689c90-a1b1-4d9e-8552-e3b88d79522f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9b43319-ee13-4bcc-b32e-e25f0f778350">
+                    <propertyInstance
+                      Id="22da44fc-1990-4dcf-9f18-7f996e4ccaa2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="341ff016-3c5b-4e82-b962-ec5fd6689d15">
+                    <propertyInstance
+                      Id="2074283e-0ca5-4717-9cd7-aa175a6cd307"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="83d947a7-d170-4070-8aca-d0e7d5ddf4d5"
+                LastKnownName="HereNow"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4cb21c96-49ab-4920-8a16-24606e2edbb7"
+            name="beenhere"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="33de36d0-0ec8-4192-8674-3f54da01a6dd"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dbeenhere"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf901ec5-35b6-41f0-b905-a162890b4167"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d99b133-893b-4525-bac9-069000dba631">
+                    <propertyInstance
+                      Id="9cd5322b-1267-4ab8-87b1-bca6315de1d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f4592e3-631f-4e48-b758-935a9cf39026">
+                    <propertyInstance
+                      Id="0ac83a8f-50e0-43df-b25b-c0d6310e119a"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2426c8a-c082-4c1b-a349-d17959e499d9">
+                    <propertyInstance
+                      Id="fdb81c2f-6e1b-4593-89a7-e270b9434672"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7023deca-8673-4c5b-948e-444de9617b2a">
+                    <propertyInstance
+                      Id="fc40fc40-ea56-4b94-9f9f-812f12f06dfc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46dd1ab0-9273-42dc-a91c-4e0ad40db2ef">
+                    <propertyInstance
+                      Id="ca3d88df-9df7-4f46-9e94-3ecdaa1c5eb5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6f67810-cb13-47db-9f9f-7e6bf80643eb">
+                    <propertyInstance
+                      Id="e79300f2-85be-4120-bae9-4368b669eb63"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60ff9a5b-3367-4c4d-acee-0bccc51334ec">
+                    <propertyInstance
+                      Id="40c72530-9135-4d1c-9f1d-7b6a165f97b7"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d1edfeff-ab0f-439a-a97e-b870f080d7fd"
+                LastKnownName="BeenHere"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fc3952da-1180-4b49-ab3f-9d331e59327c"
+            name="menu"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="129be18b-f0e3-4aa9-9e31-33ef12355ca4"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dmenu"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a2a7b712-f964-4984-b72a-4100601acdb1"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3313f73-f876-4343-bd45-4c4ce90439ef">
+                    <propertyInstance
+                      Id="d1a6f595-4332-4e67-95b5-0c0a2b699810"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f63d8857-f4cc-4979-8a8c-11752a4ed0d9">
+                    <propertyInstance
+                      Id="a02ae861-2bc9-4c2d-a5a5-45da4bcd1173"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b441559a-0797-44b5-90a0-8572c0a9efaa">
+                    <propertyInstance
+                      Id="875e0f88-b913-4e1d-9e65-d18b633616e2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="514e27d2-5ec7-4e4b-9554-7944c9e87d51">
+                    <propertyInstance
+                      Id="549ec672-b3f5-4d3d-a8a5-e9fa87d5f9b4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90d6f3b4-9322-443d-958d-46501d239cdf">
+                    <propertyInstance
+                      Id="be22bb69-8ab5-48e0-b558-ffd4abebef97"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="26549373-a385-4198-86bc-37c5ac2d4fca">
+                    <propertyInstance
+                      Id="17d30b37-45e6-4f07-83a6-618aa06cc92e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0402f6e6-8b98-4046-9751-e66f3e762168">
+                    <propertyInstance
+                      Id="cb2f1b74-3420-4c8b-85f6-4356abb3ae47"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c9ace832-9e54-4c2b-b4f2-01e7186a5c25"
+                LastKnownName="Menu"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9abe89b4-6552-412f-b7ad-727269fea7be"
+            name="venuepage"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="1c13d61b-6d53-4749-9214-3fd22d49785c"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dvenuepage"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e3e6fcbb-7de3-4064-9a8e-5e68615aaf38"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cff1200-6881-487c-8269-f57df5f2d075">
+                    <propertyInstance
+                      Id="48be0636-ad93-42ac-a45d-5693280c05cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b3bba3f-9b31-41f1-be30-92d307eb611c">
+                    <propertyInstance
+                      Id="ab322c7e-9f76-42e3-affc-f18c6c59e8cc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="130092e7-0492-4967-874e-87951539a86c">
+                    <propertyInstance
+                      Id="e4ca8d70-9ae8-43d0-91e5-2da101b9a6af"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf34e466-86c3-4b81-b34b-d5bdb3961747">
+                    <propertyInstance
+                      Id="c35cb95e-7461-4747-9380-b1690fae1f65"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97d3c1ee-77af-41d9-b5f7-14385f7d9213">
+                    <propertyInstance
+                      Id="d7167daa-3c2a-468c-b6e1-0c1f969f198b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e9ffaf0-8903-4027-bb48-b9a005b730ac">
+                    <propertyInstance
+                      Id="636d9c3a-914a-4382-893f-878953df70f1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd9b0a8d-0baf-44ec-ad39-0ee41529abbc">
+                    <propertyInstance
+                      Id="27a5a922-e9d1-4117-9281-81f977e57aaa"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="74b7e6b4-20ba-4d68-b970-911fe742e5a5"
+                LastKnownName="VenuePage"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3d823342-a64e-4b09-bedd-5b6a90d83a24"
+            name="venue"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2b4bfa8d-d77e-45e3-beff-2071fdb846a0"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dvenue"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d492b69b-1642-4d48-bdf8-099c83721980"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb2d6feb-26ab-4812-a21e-586bb7bc2f83">
+                    <propertyInstance
+                      Id="75586daa-a1ec-43eb-886c-3f6f07a84213"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceefbbcf-fe91-45cb-ad68-2400c8fee0ec">
+                    <propertyInstance
+                      Id="1198fe31-4e1c-497a-a5ca-ed664b429986"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11a0014e-e32f-4ddf-8370-1e64af46062d">
+                    <propertyInstance
+                      Id="600579a6-ddd2-4324-993c-5fccc2bf5f37"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb9bbe5d-66ab-4f26-986d-b018b9678345">
+                    <propertyInstance
+                      Id="a4f5f3e0-745a-49f7-aa15-2c14fbba8741"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb2ff9aa-02f4-477b-9988-4c73df6f8886">
+                    <propertyInstance
+                      Id="a6edeaa4-a167-4369-852c-90781ee89ef8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="472708ff-72ca-45fa-8f72-eb57fe11dc9d">
+                    <propertyInstance
+                      Id="651f2295-2f79-4eb3-a9d9-61347dde14cd"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69cedff9-6a1a-47e5-9234-afbf073146c7">
+                    <propertyInstance
+                      Id="f9dc549e-2f55-40a7-9e55-5a179395291d"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="8748fb78-6e2b-444a-9a98-55998b77ca8b"
+                LastKnownName="Venue"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d656efd2-9de3-4f75-8fc2-79350b983266"
+            name="response"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ef4ef69f-7cc7-4419-a892-d378bf084b5d"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Dresponse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1af2604e-61cc-4628-9045-9e22b626be46"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03d3ff2d-aa8f-4c08-b845-d3be2d52882e">
+                    <propertyInstance
+                      Id="6d5cfd0a-a9c1-4a55-96c8-f949b10ce65b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6326a578-4df0-453e-ae0a-ac29278190d6">
+                    <propertyInstance
+                      Id="30be0085-00dc-4fd3-aa82-297703dd5847"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56a187fb-cd51-4fa6-802d-637cbb857f23">
+                    <propertyInstance
+                      Id="e39cf422-affb-4d6d-80a3-d075897df1c2"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76f9563b-c72f-4935-82ef-606ca222e5d7">
+                    <propertyInstance
+                      Id="73974f20-d85b-43f4-a89d-ee71e335e165"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d7ba73b-30d7-4adb-b9ca-92108613d4e7">
+                    <propertyInstance
+                      Id="8da3f1fd-a36d-4310-8af2-65fb436ef30f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30dd2b2b-95ad-479b-b38e-532405570b08">
+                    <propertyInstance
+                      Id="c47136b4-2b42-4ef9-b8af-b528a80ce784"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50638d86-1d2b-4e32-bbbb-9d154ca9758c">
+                    <propertyInstance
+                      Id="aa03e342-060b-4341-8186-18960002ceba"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="22450719-530c-448a-bdd9-298e30369a01"
+                LastKnownName="Response"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1e6414a5-adf7-4ca3-94fc-6a373db45565"
+            name="rootobject"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b21d633e-fd30-4e36-805a-48013b0331bd"
+                handle="viewcode://./CodeSchema_Property?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3Drootobject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d7ad8162-784b-4b23-8be7-bdce66355ec7"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d368d4a1-4d4c-42dc-bcbf-684254306804">
+                    <propertyInstance
+                      Id="c3cec639-e931-43ac-a6f1-cf07d3bb4dab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c4a47fa-d1dc-4e75-a669-3d0fd0f429b5">
+                    <propertyInstance
+                      Id="a2baf1e0-7ca4-4638-a4f3-ed09fd6adbfc"
+                      name="Get"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c1a2cbb-6389-453b-8e57-65e8fd5e31ab">
+                    <propertyInstance
+                      Id="f287eef0-1ae7-4343-a03b-10ff9fa1c987"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ffbf007b-ebdb-4ff9-9def-dc0e9608e7df">
+                    <propertyInstance
+                      Id="342849e6-f9d4-4424-8e14-c9c8947059d8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="926246b1-b6a8-4860-901d-ee81baacaa3f">
+                    <propertyInstance
+                      Id="c5263de2-2983-4990-8fb8-11f3f715e272"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="19da6428-09cc-4f2b-a8d7-42dd89c390f1">
+                    <propertyInstance
+                      Id="ba19a169-7dcf-4794-b131-bcc60800dbea"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12510bac-e1d1-4cc6-9f81-ea871e6ba92f">
+                    <propertyInstance
+                      Id="bb0f5129-1f1d-42b7-b618-6ecae25bf621"
+                      name="Set"
+                      value="public" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d0c833f7-330f-485c-aa5d-bffec7912b8f"
+                LastKnownName="RootObject"
+                LastKnownLocation="Package1_2323.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="1fe551da-92f3-4d8e-a8d0-d065681cdddd"
+            name="FoursquareModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d4ed6350-0a97-4004-a37d-90e192ffab59"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DFoursquareModel Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81d6b35b-3c7b-430d-85f8-555c13895a43"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90c33514-c03f-4ee5-8885-3d4b90e8079c">
+                    <propertyInstance
+                      Id="9c7fff85-ec1f-4f00-96e3-4a8a51d9e91b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e12b876b-3d0f-409b-ba2c-7cee702967c1">
+                    <propertyInstance
+                      Id="8e8c4483-a460-4a30-bc94-a1bd2fe79678"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c0faeb2-b64e-445a-ad3b-7ce7b6304e77">
+                    <propertyInstance
+                      Id="4d75554f-97b9-4d2e-b338-3d7aecb413f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbd44906-1b2e-461d-9d20-8b1e8be312bd">
+                    <propertyInstance
+                      Id="3b66aba2-052b-40d5-8f54-57858ec13137"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d44aaac0-1eca-4d5b-a79a-222180507393">
+                    <propertyInstance
+                      Id="55bd444c-4b9d-4ee9-a799-fcfac1469976"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e429d7bb-b096-4763-bf87-413261922f9b">
+                    <propertyInstance
+                      Id="08391b79-63cc-4294-8835-e8da7942541b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="336e2639-0d5c-4667-b82f-094ba9d46b7b"
+        name="Meta"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="15138b0f-7b94-4ef5-86e7-d1df40b2cc31"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DMeta ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cdd13edd-887c-47ee-9d95-d9d11af86da9"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82d716f7-56f1-424a-90a1-c0af555a8fc4">
+                <propertyInstance
+                  Id="6cf3c64d-cebb-4a29-bf51-379318b501e7"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd23779d-1bc0-4d70-93a9-36a819453435">
+                <propertyInstance
+                  Id="00a991c0-d1cc-49b5-91b7-c77f6494efaa"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b4d4ddf-cf8c-4371-9027-166040343129">
+                <propertyInstance
+                  Id="2ab8e2f4-9a99-4d7e-a2cc-d0f23a66ffb2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cea6244f-be87-4fdc-a276-0f998ca6f82f">
+                <propertyInstance
+                  Id="fface877-b327-4f70-b554-b069ded36b18"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f770c806-789a-4438-be6a-f67659593f78">
+                <propertyInstance
+                  Id="3252067b-7945-4a6c-b296-1247ba03367f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="38c6dd25-80d4-46d6-8e5b-8a1a1c951010"
+        name="Item"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d198ab96-aad2-4721-b22a-6457995295a1"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DItem ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8c33edeb-a8de-4b25-8c2d-d500dde1682f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2179f802-ab6e-443e-a5c7-ff18a017329b">
+                <propertyInstance
+                  Id="df8cf1dd-08ae-49df-a882-a6d315b99193"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0e6cc3d-f7db-40ad-8aee-eea27b2d6d6e">
+                <propertyInstance
+                  Id="23a9711e-a804-4977-8e96-0bb3337788f1"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="82fe471b-e612-4914-afca-dc694529b1eb">
+                <propertyInstance
+                  Id="595a6f4d-1e58-4405-9e3b-6e75d04a62b2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6bcdd2f7-b2b2-4cd0-8b3e-7463a72f73bf">
+                <propertyInstance
+                  Id="a14e5ab4-268d-4b36-8081-e89966adf767"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5615831-2311-47e8-afb0-53c802f4303a">
+                <propertyInstance
+                  Id="8a1191cb-281b-46b8-812c-9b8b4ba89042"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="daf06e91-a6be-4c1b-9e0f-40a53e12255d"
+        name="Notification"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="366a03a9-e458-4078-82cb-782ca4d35470"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DNotification ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7cf05d3-9db0-4a88-a0f8-7ca358ff9499"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bae5dc87-09dd-4fd4-bf15-359d5c5b673d">
+                <propertyInstance
+                  Id="076a1ce5-889b-4b6d-8394-bd73f67e95bd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7064b72f-948d-4f93-83f5-7653dfe431a5">
+                <propertyInstance
+                  Id="60c7e425-dc58-4dd4-a7a0-29933ca223d0"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd1408ec-a07c-4f6d-8d99-e14285e382f8">
+                <propertyInstance
+                  Id="2a323355-3f82-44b0-99dc-1084ae3db445"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e50a95bc-c54e-413c-aa46-d59ef0916363">
+                <propertyInstance
+                  Id="1c2a185a-81a7-4dca-aeab-15df1360a89e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09bc0827-2dd5-4e8f-9127-83c110a4c4a4">
+                <propertyInstance
+                  Id="d41a49dd-5575-4abf-b783-ea1d9c20bec8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ec8c926e-6681-4f46-bef0-ff4d838cc58a"
+        name="Contact"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="444d25f8-db2f-4614-8bc5-667205cf236d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DContact ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4a0cc0d3-5f0f-4079-b952-50aca82cee49"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7f4c9ca8-7fd8-4ced-ad09-f3f4c590d258">
+                <propertyInstance
+                  Id="623fa5c0-d176-40fc-804f-3beb7e6659d5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="00883613-61ef-4fc5-9b29-68cbc9dee062">
+                <propertyInstance
+                  Id="ed43692a-b1cd-4709-a81a-05cd4d12d89c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1766c35-78c9-4f20-be27-d2d365e0804f">
+                <propertyInstance
+                  Id="62726c5a-6fa3-4426-a667-e48911e6f25e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8d69f234-a057-411a-93fe-1f22192eb116">
+                <propertyInstance
+                  Id="d4897490-a027-475e-90ed-86f7595d2051"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e6fa5e0-0240-4dcd-a5b6-26a58f312138">
+                <propertyInstance
+                  Id="13038fd3-3fc8-4e84-bfce-9daa8450f96c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="60d0f3c7-7bfa-45f4-8062-f46b7e95e5ea"
+        name="Location"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7f387372-c79c-459e-a409-f95a2ea74ebf"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DLocation ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="8805a714-c3d8-4808-b1d4-d42b759db63e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8403d62-259a-4df3-98cf-b9d1a15c3349">
+                <propertyInstance
+                  Id="4f5e38df-6474-46a5-9a12-a9380c1192fe"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2bde9c1-26ed-4e2e-8dde-c0d6baf38c32">
+                <propertyInstance
+                  Id="66c7a02e-1e88-4b1b-8646-979c2184eb34"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77e5bf31-fc3b-4c11-8137-9f6c8913307b">
+                <propertyInstance
+                  Id="4d48243f-ea18-4e16-bb57-f3fc83880cf0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1e879358-b825-4677-af2f-63d24bceea20">
+                <propertyInstance
+                  Id="f80887e9-3dab-4758-ade3-7792a6c97171"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c1e9752-4fa9-4c34-9605-ec7d47dd2bab">
+                <propertyInstance
+                  Id="0ef63c87-22ea-4f1d-b2e3-ee22ce4eb4f9"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7e91680a-6ca5-43b7-894c-c6da2ce5baab"
+        name="Icon"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0f63577b-fcb7-4187-94f3-b4644cea4144"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DIcon ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5f597d17-7285-4df3-b509-43930d50d4bc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0bcad33b-3dd8-47c8-adde-fc6fdbc2f349">
+                <propertyInstance
+                  Id="f3712c86-85e2-4459-b47f-9f829f466767"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de517863-c09b-483e-935f-347825ada7df">
+                <propertyInstance
+                  Id="129acad0-0bcb-41d2-8377-52748dfcd77f"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec3464be-ddc4-4b24-81a8-cf8e8bc4441c">
+                <propertyInstance
+                  Id="e34278da-9718-44ef-9fff-4119326fb595"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="45510e88-5e71-4313-bf00-3e32a092ffd8">
+                <propertyInstance
+                  Id="6af456d1-fa87-4800-a127-3db132afc82b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="243d7373-a5bc-4a74-ba15-a457efa01c5f">
+                <propertyInstance
+                  Id="075050f7-6561-46fd-8370-0bdd58ecfd61"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e6615819-a448-464f-aa7c-06d3549843a6"
+        name="Category"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="293d4e7c-26e3-4cb4-8679-44849180f97f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DCategory ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="63e54e8c-bff5-4a36-a5b0-57ea3da80c35"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8550b69c-6bca-4382-8ea9-79ee6d4ad559">
+                <propertyInstance
+                  Id="606b6350-4fcc-4578-9a37-ca7812200723"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="639629fd-b890-4f17-b51b-c9ddd40b2da7">
+                <propertyInstance
+                  Id="f081c79e-c24c-4107-abf4-3100bd3d8dd4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7a0841b-2419-4c1a-85d4-da935dcbeea5">
+                <propertyInstance
+                  Id="c5dccd36-615a-4a27-90c6-21dcd5832a79"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="73f967fe-8d3b-4689-918b-b78c83eaf558">
+                <propertyInstance
+                  Id="ec2dab64-08d3-47e3-9eba-192a150269c2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9a53193c-6e4c-4f23-b2c1-a36d647c3411">
+                <propertyInstance
+                  Id="8cf2d11d-3151-4d12-8349-a7a26888adeb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e3a8bf53-794b-4f38-b40c-095f84486ac0"
+        name="Stats"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c8f87a60-7497-4ea1-a093-a663098c498c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DStats ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a8c619a6-8263-4d0d-abcc-e288897b7eab"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aee79c9f-f2d9-40ab-be2d-f38f494253dc">
+                <propertyInstance
+                  Id="4ac6bca5-87d8-411d-8103-4fe7f63f7bda"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3f46c72-d34f-4150-908d-9d3fee9d1054">
+                <propertyInstance
+                  Id="cd49527f-8dc0-4523-9db5-87d89b6167c4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="678e2d8a-a3aa-435f-8583-1e46275dc8cd">
+                <propertyInstance
+                  Id="53a171b1-456a-4489-a379-73e31fe869fd"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1ecd6d10-bea8-4f47-b732-f8deaacb9b38">
+                <propertyInstance
+                  Id="b59cbb12-5a08-4d29-bfaa-104eba7a92d7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="267f93bc-55cc-4815-8dbf-ca632cbfefa7">
+                <propertyInstance
+                  Id="51fcf155-8f9c-4163-87d3-151b70e591ae"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4dd57fd7-1c94-4427-a6ec-2d29e4d4f7e9"
+        name="Specials"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2c76f34c-29d9-445d-aeab-8cfd25613c5f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DSpecials ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0b12ef65-f3c2-4d12-af3a-a37637764fa2"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bcb53694-fd17-4fe6-baa0-b6f7ab5c5105">
+                <propertyInstance
+                  Id="7752edae-d9b6-45ec-8556-7a0254b956a6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a42232a9-cec9-40ce-90b1-2051a5397636">
+                <propertyInstance
+                  Id="600bd4d1-b39d-4e29-ab28-96c329a511e2"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="31e12ec1-5941-451e-bc5b-94afe894814f">
+                <propertyInstance
+                  Id="5ac564ea-ee8c-4233-808f-c103aa8af2fc"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2db9b63b-2e9f-47b7-abd9-aeac994a8946">
+                <propertyInstance
+                  Id="8a2ea3bb-7bf1-446b-b7a5-ece0b04acf38"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="669e48ad-ef6b-45bd-9245-8280aa8c0056">
+                <propertyInstance
+                  Id="f842e834-0e2f-4005-99f0-a489a3b33109"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="83d947a7-d170-4070-8aca-d0e7d5ddf4d5"
+        name="HereNow"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="431bc61a-00e2-4749-ab87-a881517a1d50"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DHereNow ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="886cd26f-115a-4d3e-adf9-247460be77fc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7ba7477-3583-48c4-b935-f2849d12c87c">
+                <propertyInstance
+                  Id="6554188e-7d6b-49ca-9e7b-d8497ec4165f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="09387769-dbd0-4989-950b-f01b881331ec">
+                <propertyInstance
+                  Id="19af8dcf-7a76-439f-affe-20909de4e78b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f995851b-9c0e-4908-824c-30878114e05c">
+                <propertyInstance
+                  Id="ddbe0211-91e1-4e3c-993d-c5828d71cb35"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="632dc5fa-f0ed-4407-8143-3e2525fef6f9">
+                <propertyInstance
+                  Id="3e79a377-2ee5-41eb-a6da-63f9b8002851"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f35a8e0-7ab6-4cd3-bc2e-a1e256792d92">
+                <propertyInstance
+                  Id="43d24832-2e77-4c45-be13-020979f3aa6e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d1edfeff-ab0f-439a-a97e-b870f080d7fd"
+        name="BeenHere"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8a9abcdd-8029-404a-b22c-0794e5a41fa6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DBeenHere ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="22f300dd-a929-424a-87a3-2af9993f1bb0"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d2ca7916-a15b-4743-a17a-481663813799">
+                <propertyInstance
+                  Id="45405c61-abe7-4b16-8652-e48f59557c14"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ae320974-b912-41c7-b70c-8b49d5d27062">
+                <propertyInstance
+                  Id="89b7fb60-68fd-4cf3-b53c-33b6e8c73848"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76988085-d741-4d2e-8cf3-2bb816248a13">
+                <propertyInstance
+                  Id="094def43-edfe-465a-9bf1-8b07ed87dd01"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06f19a76-d60f-47f3-9060-b831e4cd243f">
+                <propertyInstance
+                  Id="3fde32a5-da64-495f-8a8a-053456b125d5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8144e37b-24e8-42a9-a036-baffdcd4ca87">
+                <propertyInstance
+                  Id="33d3ad2f-d90a-4c1c-aa67-1f91a7daf850"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c9ace832-9e54-4c2b-b4f2-01e7186a5c25"
+        name="Menu"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a5fa9242-4120-4521-86df-b40a49a85c6f"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DMenu ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="bf009360-4714-476b-b705-ecd0713533a1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="88834cca-5e55-48d5-9931-6717ce841914">
+                <propertyInstance
+                  Id="06806d3a-8339-4764-b7e7-26289978e09c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="43346677-a224-4e8f-a3d7-88db65d9c281">
+                <propertyInstance
+                  Id="247f6fb3-3fad-4795-becc-a140086dd1d9"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="634dbc9e-c721-4087-a022-ee1307ab0321">
+                <propertyInstance
+                  Id="6337fea9-d747-4d4e-8388-75742ea32fb8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="019b8bd2-af12-47dd-96b7-c764196d0027">
+                <propertyInstance
+                  Id="ba7361a6-bcab-4cb3-847a-8d4a5f4bbbe4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="700175d0-2c6f-438d-8eb7-e7692c52e876">
+                <propertyInstance
+                  Id="94ccef86-b166-4204-a5b8-9bb4876ce122"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="74b7e6b4-20ba-4d68-b970-911fe742e5a5"
+        name="VenuePage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a8d06840-61b6-4746-a8b4-f1d5f346179a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DVenuePage ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="2a6a1aae-d4b2-4fe6-88c3-c5757e9633c4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f9d46079-60d2-4360-b150-6a10fe4bdffc">
+                <propertyInstance
+                  Id="060bc0c4-adde-4a2a-93df-9c95ca450437"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a7cc8f5b-74c6-4118-a18f-66b6883fc3d3">
+                <propertyInstance
+                  Id="814f3b49-ae86-4de6-9ef7-ba55cac8424a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d6c41e1-30b6-45c0-a0bd-7f1b1a644cdf">
+                <propertyInstance
+                  Id="ddf10649-4f29-4b4e-8c34-be0f881eb2f0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="97e0165e-5829-4ce7-8b34-1523341981a6">
+                <propertyInstance
+                  Id="9b81a88c-d3e5-4db9-b409-5f2662a6ed0b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b451324d-365a-4f02-9cdb-1cf3b92073e9">
+                <propertyInstance
+                  Id="1ebce037-c4b0-4423-b024-788a30b3f11e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8748fb78-6e2b-444a-9a98-55998b77ca8b"
+        name="Venue"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a8206f8c-3db8-44e5-9309-86bbdbefe725"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DVenue ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="55b3b554-686f-4a51-82a8-3d3fafba6a2c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bcb49cd0-29db-467b-9e4f-14ee43804cba">
+                <propertyInstance
+                  Id="e491d473-8d21-4258-8d3f-16c103165196"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b9d6e1eb-73d7-4558-abb5-15321a41c4d9">
+                <propertyInstance
+                  Id="d9ffeeca-9de5-4108-bf37-6a0d51ae1686"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c78047fa-a5f1-4be8-be50-68b74cb0c9ec">
+                <propertyInstance
+                  Id="1de50a5d-0383-45ab-b483-a6073d5f2e06"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8a83fdec-0085-43fc-b5e1-7ea33037a264">
+                <propertyInstance
+                  Id="181520c8-d8b6-461a-80cf-ae7ba4a86a8a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6c294837-47fe-4f7e-a60a-e17a39a948cd">
+                <propertyInstance
+                  Id="5d280336-810f-4454-ab35-c62d0c3ebffe"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="22450719-530c-448a-bdd9-298e30369a01"
+        name="Response"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3626659f-105f-4fbe-bd0b-d81cfd510d4e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DResponse ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e203b6c8-6ebd-4334-8c64-be14dc5d9b43"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76ef9b3c-2b71-461f-ab97-62ec11457946">
+                <propertyInstance
+                  Id="ab7b9f89-7c0b-4a74-a0f2-d93cd9048e65"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cd4afc86-3961-411d-b762-f604dae9244a">
+                <propertyInstance
+                  Id="2667a55c-4a8a-4841-82db-4aff84b4fc47"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e7e00ac2-aa6c-4fc2-9882-8935737e32ad">
+                <propertyInstance
+                  Id="ba2b043b-0ed4-47eb-83fa-e86cd7e6db8a"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="613233fa-8117-4706-b874-d532904cbc27">
+                <propertyInstance
+                  Id="9e6d8b34-eadc-42bc-97d3-09635e04b7a4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="696efea4-3158-44e4-9e26-75119e6e5495">
+                <propertyInstance
+                  Id="c33efd3d-d66d-4880-a310-ef4a37668211"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d0c833f7-330f-485c-aa5d-bffec7912b8f"
+        name="RootObject"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="621026fd-415e-455e-b665-80097524db98"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3D(Name%3DRootObject ParentType%3DFoursquareModel)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="e8ee174a-5dc6-4b59-a4b2-fdf9a0fae9fc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d86afe6c-2cde-4589-a3a1-f98f20ae42ff">
+                <propertyInstance
+                  Id="b194087c-b057-4dcc-a18e-996afbbfeddb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="52ddf542-7e55-4fd3-b819-0e11a05012f8">
+                <propertyInstance
+                  Id="82e7a50a-890c-43bb-8028-6bdace9a2711"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cbdcb431-983c-4060-8c7d-a132e741f347">
+                <propertyInstance
+                  Id="ee4ec303-f39a-4158-9559-de0afe6b28d0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8834b9e4-2d64-4c62-8d6c-d078cb9b39b4">
+                <propertyInstance
+                  Id="c77c4974-dc94-4f9b-bbae-2bb30a439c42"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4c6c799e-d8a8-4dc7-b079-451f0c33aa37">
+                <propertyInstance
+                  Id="1704e2d2-5e5e-492a-bb55-9e06ed9c198b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f2e85c21-b496-48ba-8077-2b31000302df"
+        name="InteractorModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4787310f-88ef-453f-9c9e-d18dd904688a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab4%2Flab1%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2.Models Type%3DInteractorModel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c359aab4-1bdd-42cc-bcd9-5158aef65b0d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d62a2811-b7d4-43c4-bcbf-a77355f1d72d">
+                <propertyInstance
+                  Id="20cf1af6-987a-4be1-b3a5-230cbb04d4b6"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="65391b80-078d-4316-86ae-c6e543924e7f">
+                <propertyInstance
+                  Id="cd9d3e1a-5707-46ca-bbdd-09acdff6798d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="576e8e3a-7d3b-488f-9094-7cc962d2e756">
+                <propertyInstance
+                  Id="a23e8c32-bc70-49dd-b50b-34e2772a4751"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5304e874-e625-4a7d-ac67-64fb8f341cf2">
+                <propertyInstance
+                  Id="4689c5e1-060a-4e75-b39e-b52801683b2b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="03a3e3cf-0be0-462b-a8dc-93f1ae9625fe">
+                <propertyInstance
+                  Id="3fe5d260-fc56-4872-9d01-9882c772c3d4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

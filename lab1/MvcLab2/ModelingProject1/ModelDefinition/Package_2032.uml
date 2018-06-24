@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="e98bb9c8-8407-4d4a-9b92-1cc0ad9e3a5d"
+  name="MvcLab2"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c426aa22-8fd1-443d-b73d-a6589a692e5d"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DMvcLab2"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="051fe9de-b9ec-4ba8-be8a-47b4fc804056">
+      <profileInstance
+        Id="6c245082-a4f2-44ed-95bf-080d9de79a1f"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="3a4d680c-040b-46fa-8957-044bfb534733"
+        name="MvcApplication"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="d0132e73-8ee2-4f55-bf31-63d64c211b1e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DMvcApplication"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d71070df-2a10-42ae-aa13-7a2957a767e4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="50187700-ea46-475e-b3c9-6e73cb5b49e8">
+                <propertyInstance
+                  Id="b473f0ad-26ea-453f-9bc7-2b8f7564ae46"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="308b9cec-9f5e-4fed-9a08-49f1b5496f39">
+                <propertyInstance
+                  Id="1bb5ec2e-c862-4112-9417-91f20e972ce4"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5b08395e-9cbd-4687-a317-0fbbf5122019">
+                <propertyInstance
+                  Id="8e2cd151-33c0-49ac-b01f-8406618d30d8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3754c37b-7993-42ac-a373-e3e0d42d3c39">
+                <propertyInstance
+                  Id="a3db8f9e-98a1-4cba-ad23-bc6ba13d4fa5"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7a53670b-2575-43d9-bab1-4ef41fe20483">
+                <propertyInstance
+                  Id="9ed533ad-f9fb-4e92-9958-91246bc42a64"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="841b78a5-2c54-4fba-9834-744cd239d262"
+            isSubstitutable="false">
+            <classMoniker
+              Id="cdeeacdf-3412-4ba9-a72b-219afe95e7fe"
+              LastKnownName="HttpApplication"
+              LastKnownLocation="Package2_2032.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7826037e-7254-445c-b9c8-e919c2ce068c"
+            name="Application_Start"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7e760371-37d5-459f-886b-b5f19d3d9bf9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DMvcApplication Member%3DApplication_Start"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="95076882-270c-4183-bfeb-8b29c6244cc3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20dfb2e5-61fc-4d73-8cbd-b1ba9849588d">
+                    <propertyInstance
+                      Id="a47188f4-38ef-4a6d-9fa3-6e2aa038749d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21951f40-d2e6-44ec-ad80-50cf899a0b35">
+                    <propertyInstance
+                      Id="daf0bdb1-36e5-4271-beee-bf7767908bcc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7acafb0e-4a1c-41fc-a113-aacc9f7bdc11">
+                    <propertyInstance
+                      Id="4e74013f-c88f-496c-b2b3-3a1edf96b2b7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="086d0dfc-8877-4526-a7dd-8f3c7f185846">
+                    <propertyInstance
+                      Id="23c6b72a-4b5e-4d3c-b1bd-ff1d6752cc4b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96c3ea0e-0486-4bb8-a7eb-42153bbd5d95">
+                    <propertyInstance
+                      Id="4fdfe73c-6aa9-40f4-a88e-b41dda9b6639"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb9a25c3-053b-4e4b-959f-1ad291efc686">
+                    <propertyInstance
+                      Id="b1b695f7-7ae4-45c3-a0da-e43c2408fb78"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="d4b7eb40-8d63-46d6-b572-76fdbac3b998"
+            name="MvcApplication"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2e8f6322-45ba-4130-8860-f2a6c6d87b25"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DMvcApplication Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ce82c850-0d0a-41d7-9b08-97ac073b0e35"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c3c832a-1c45-4a25-95fd-6f5725a36461">
+                    <propertyInstance
+                      Id="0f840523-b6a6-4dbc-bbb8-f3acb3f8736b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00428e7d-e151-4665-802d-c05fdc2676ab">
+                    <propertyInstance
+                      Id="5192d08f-977d-414e-a24b-ec4af5b29dfe"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e00ea2f-131d-4351-90ca-79bd4cd9c8a4">
+                    <propertyInstance
+                      Id="55538511-cded-4675-b6a9-e61282942c1b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9db218b8-3f4e-4830-95e6-8245a7d2c2d8">
+                    <propertyInstance
+                      Id="dea046d0-14df-489c-a52b-a8317bc61b9e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f035cc58-3d59-4eb5-8c94-6cda454027b3">
+                    <propertyInstance
+                      Id="eaf42e31-2e23-4db0-ab4a-eff6ed5568ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d71c0da6-45ac-4fb0-8886-3e73a78343d9">
+                    <propertyInstance
+                      Id="ec84df64-8e67-4007-bd01-ac4cf985d24b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="67619670-cf94-4789-8022-b89e02f48c9d"
+        name="BundleConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="62e07e5f-0700-40c1-b8ce-f5cf90191a76"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DBundleConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c4383501-6f5a-4760-9c9d-0eb6d1e506ce"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4a76d5f7-1d0c-45f2-a549-050496fa38c2">
+                <propertyInstance
+                  Id="97245b68-8629-4373-9182-8ef87beb7da9"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58745a42-ad08-4ce7-af70-ff1b8703efe7">
+                <propertyInstance
+                  Id="59d4ec60-a6d5-4197-8fd7-6ac1f769874c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79cd4bde-edc8-4d3d-88e0-96b15666a6ba">
+                <propertyInstance
+                  Id="b33fe071-8a86-4ac1-a4ea-9c10c07bc6ac"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="46380c25-dc97-4fdf-bff1-2efbc4e176dd">
+                <propertyInstance
+                  Id="f53b292e-e569-407d-bb6d-caca4551004d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8f0e4be2-68bc-461e-8b14-0d4d3fef20f1">
+                <propertyInstance
+                  Id="47bf8305-7c8d-4313-892c-396c83cf4a49"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="aa7011a1-af67-4a1e-8055-28869155a330"
+            name="RegisterBundles"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cc5636cf-800d-4ba8-b4ab-cb84be6ba095"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DBundleConfig Member%3D(Name%3DRegisterBundles OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.0.0%2Flib%2Fnet40%2FSystem.Web.Optimization.dll&quot; Namespace%3DSystem.Web.Optimization Type%3DBundleCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7b23da23-3a5c-4ec4-8cab-64911a2a5d62"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8eebcbde-06da-40a3-8d5a-2e70f90a0a4b">
+                    <propertyInstance
+                      Id="3cea7dc2-65ad-413b-a279-8d1a7fe43c8a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="444d1762-0dea-4e1a-a2a6-2afff49714bf">
+                    <propertyInstance
+                      Id="2f1d0da4-bbcb-4566-9622-c2073725efa3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37f85a28-76b8-42d9-813c-fcacea7dd04b">
+                    <propertyInstance
+                      Id="00165ca9-3c89-435d-aec5-0dae8d11947d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59af7630-cf56-4858-b238-6115fecfa65f">
+                    <propertyInstance
+                      Id="925f224f-3ea8-43e6-80cc-022f676ed8c2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d4095e1-3a01-436d-ba57-4bde09724654">
+                    <propertyInstance
+                      Id="b35c7160-983c-4655-a8a6-c97713bf565f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c669040-03b0-4b1b-8fab-93d1fc583aad">
+                    <propertyInstance
+                      Id="b50a5336-b385-4134-96cc-2a199f81e7b4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4090e7c0-c689-4360-a975-4b53d9325d28"
+                  name="bundles"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="57d13fb2-5cb1-42d5-93ed-eb09d9aa2aa8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DBundleConfig Member%3D(Name%3DRegisterBundles OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2Fpackages%2FMicrosoft.AspNet.Web.Optimization.1.0.0%2Flib%2Fnet40%2FSystem.Web.Optimization.dll&quot; Namespace%3DSystem.Web.Optimization Type%3DBundleCollection)]) ParameterIdentifier%3Dbundles"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5d286124-ed28-4364-ace7-08e7f3bd3720"
+                      LastKnownName="BundleCollection"
+                      LastKnownLocation="Package3_2032.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6b74ec91-d0c9-4d5d-9e03-48a2c8aa94c6"
+            name="BundleConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b516f456-65fc-483e-b16d-20ed6619e600"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DBundleConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="62e4951f-049f-4345-bdac-d7bab2fa6f17"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46d01c3d-9897-467a-814c-a8700774d0b1">
+                    <propertyInstance
+                      Id="793441b6-a980-400d-9c99-3cf428cc03a7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4a9d0fd-bf08-43d1-986c-0eec587bf670">
+                    <propertyInstance
+                      Id="745768f1-2500-4182-8046-c98d7278e775"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0990ed6f-f50d-4779-9831-a8053443e407">
+                    <propertyInstance
+                      Id="4b57c792-c0bc-422b-86fe-7b80a9aa7e5c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc994d4f-2c25-4659-b2ed-7cbe2e7110f3">
+                    <propertyInstance
+                      Id="3c558599-ecb6-4a4f-be8f-74862c2ecd1b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70c6f598-68c5-4b0c-946e-3136988c4ca0">
+                    <propertyInstance
+                      Id="d5067cd7-57cd-4f85-a0d5-adfade15666d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a98d4d70-0d4a-4e66-8b0e-6f8dda809094">
+                    <propertyInstance
+                      Id="02d8f97a-a778-490c-9557-5a3e931094ea"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cdd3a044-b406-4daf-afbc-0ea8386e746a"
+        name="WebApiConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fbc55c0d-8ae4-4419-a81b-b29507400d6e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DWebApiConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7aa7f408-9136-4c3c-a95d-4e80571516f4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4e92d0c5-a162-45ff-90c4-dd9baee1f900">
+                <propertyInstance
+                  Id="98b7b074-c8b9-47e5-be52-f9b834c38896"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fe2bddba-bacb-42f1-a731-415d0e859a6a">
+                <propertyInstance
+                  Id="ada758b5-5281-45dd-ab29-df2ec2b4d8a6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ca8a5a43-15a6-4fb0-ba28-ea68be92dea1">
+                <propertyInstance
+                  Id="96a28062-7457-493e-b70e-818ead449eaf"
+                  name="IsStatic"
+                  value="True" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f224df44-563d-46fc-8d7c-23d6afaf5cb9">
+                <propertyInstance
+                  Id="7037c03c-745b-478a-a93d-549cb63c76d0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="668e8b81-394e-4872-89cb-e39b7b19cbc9">
+                <propertyInstance
+                  Id="86356c2a-6a18-45b9-a8d7-67c9163fda67"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="8f92984e-709e-4d4c-bc48-8d1e99debf10"
+            name="Register"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e750840f-fa48-48cf-9135-a2dd0ba5447f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DWebApiConfig Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Http.dll&quot; Namespace%3DSystem.Web.Http Type%3DHttpConfiguration)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7bc771eb-265f-4251-be7a-b7999598c386"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abadebff-ab33-4893-920b-09de48e61590">
+                    <propertyInstance
+                      Id="bee4a2d7-efdf-47bb-9c39-a9d6b32c1465"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95aef4ed-3faa-4994-939f-ebf9bc3061f6">
+                    <propertyInstance
+                      Id="ed5efe3b-cd08-4640-bc01-cd220860bfc8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f932e8d-67c8-4a43-aa1f-0806e8087330">
+                    <propertyInstance
+                      Id="b3afab6e-41d1-4448-a1b4-24a476baea99"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23eebe7b-7e11-49c4-9072-70ebffdb2e1d">
+                    <propertyInstance
+                      Id="7cec50cb-b0fc-45fa-b9c9-5a48af6ade3d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59a268d3-6374-41bc-aac1-4cf7d058357c">
+                    <propertyInstance
+                      Id="ddb8eeed-4d72-46ea-95f9-9d4eef409aba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b0b0a80-ba9f-479f-ac02-fb2dc5d76fa8">
+                    <propertyInstance
+                      Id="e9d086da-9480-4ff0-a897-8190d63bfd6a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="96d0ce3a-e667-4da2-8c90-7bc959963e9f"
+                  name="config"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="155a07cb-8fb5-4288-a6b8-91ba61b0ee7c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DWebApiConfig Member%3D(Name%3DRegister OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2Fpackages%2FMicrosoft.AspNet.WebApi.Core.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Http.dll&quot; Namespace%3DSystem.Web.Http Type%3DHttpConfiguration)]) ParameterIdentifier%3Dconfig"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6334a298-1b55-4805-a4c7-80d164f131b6"
+                      LastKnownName="HttpConfiguration"
+                      LastKnownLocation="Package4_2032.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6b6abeb2-c3cc-4514-9344-c0a019b172c3"
+        name="FilterConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0708fb24-f5fe-40eb-97bb-900e7a58e521"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DFilterConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="9277f96e-3572-4da3-a3cf-b1120a668a9d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6c3b6da-9bc1-436e-97c4-67cd7e6708f8">
+                <propertyInstance
+                  Id="96e1e30e-6d32-4206-93a0-c1c03279667c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1645afae-6bb3-45b7-bb98-b8a0a6bdb854">
+                <propertyInstance
+                  Id="95872b48-c80e-4ee2-8ac8-70552b7cfedf"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1d20114d-8f3f-449a-9819-2b3bcb8a0c70">
+                <propertyInstance
+                  Id="2a9ad202-0ed8-46ae-8521-b332e4fb2367"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a87378d8-f59a-4678-bab1-7d4a3188d592">
+                <propertyInstance
+                  Id="b9c556c2-d05d-4fb9-8650-7b62625374d7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e9a647b-9dfe-44e1-8ac2-8197d60a0b83">
+                <propertyInstance
+                  Id="94f9a28e-6100-448a-b38a-9a600a3cf73c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="be24b306-9626-408d-95f5-1e75adef0a44"
+            name="RegisterGlobalFilters"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="de81009f-5771-4a78-8d91-6889cc088d71"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DFilterConfig Member%3D(Name%3DRegisterGlobalFilters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2Fpackages%2FMicrosoft.AspNet.Mvc.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e0e45baf-1fbd-472c-8e0f-03abbaf6f589"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a860ec83-8e0b-4161-976a-2faaa5d810fe">
+                    <propertyInstance
+                      Id="f1556b59-f16b-422a-b1f0-777ec0814048"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dbf9ac2d-b59a-4ae1-8a60-935b1f328f82">
+                    <propertyInstance
+                      Id="3fbda2cc-2a3d-450c-a000-4c96dcf4caa2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3bfdf7e1-371e-47b7-bbe8-84bbdefef2df">
+                    <propertyInstance
+                      Id="9e1230b4-a303-4044-9d2c-8029a868b4bc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c908eb87-c26a-48e8-9fcf-1d539c45a28b">
+                    <propertyInstance
+                      Id="2d2b38b2-c398-4062-9950-ee9be753ceda"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6f19c10-d3ba-4051-af87-241a8378b67c">
+                    <propertyInstance
+                      Id="8c2eb8ec-4a5b-491c-a555-be25963314a5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12599c34-c15c-4323-a987-d320ecdac2ae">
+                    <propertyInstance
+                      Id="9a1625be-3e97-4fe3-899c-10bcba68b2f1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7ddafec2-6eb9-49b4-a688-95cad14a7253"
+                  name="filters"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1d861089-631f-44f4-bb6b-677669f02d6e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DFilterConfig Member%3D(Name%3DRegisterGlobalFilters OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2Fpackages%2FMicrosoft.AspNet.Mvc.4.0.30506.0%2Flib%2Fnet40%2FSystem.Web.Mvc.dll&quot; Namespace%3DSystem.Web.Mvc Type%3DGlobalFilterCollection)]) ParameterIdentifier%3Dfilters"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="0173d1da-f3c0-4b07-b4dd-b2807b3ec7ba"
+                      LastKnownName="GlobalFilterCollection"
+                      LastKnownLocation="Package5_2032.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6b4ec3e2-34f7-46c9-b277-cad87cdd416e"
+            name="FilterConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="65a1a01e-2365-4f00-aa23-7b9d299f4341"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DFilterConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5d44f888-0992-479c-870d-d18578d7258a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2860b04-320a-4317-8ab6-2fe1e6c6ff00">
+                    <propertyInstance
+                      Id="eb6b3c8d-ea7a-4a8a-bdb1-55685e82ea52"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7aa3c12-a650-4dac-8aa2-1a7683228b90">
+                    <propertyInstance
+                      Id="3472bbc1-98d4-4880-afa5-45582d2351a8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f4840372-8cfa-4ea4-bee5-3a7ba573129c">
+                    <propertyInstance
+                      Id="b7df735b-ee68-4f0b-acea-8fec175b53fa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa56d0f3-76f3-419d-969b-10fcbd7826e6">
+                    <propertyInstance
+                      Id="51183fe4-9233-4979-b808-9f7e966fe0c7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3cf92d2-3dad-45b1-8a20-9d49a3d4c6e2">
+                    <propertyInstance
+                      Id="7768774f-ad8c-475f-acf0-f26bd4efd461"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23b9be1b-a969-4bad-ac00-a5be474567c7">
+                    <propertyInstance
+                      Id="60e2508e-1c98-4d2e-84d4-deec063770f7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f4f1347f-9b23-4fff-aae6-7d2799127b80"
+        name="RouteConfig"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="34d42c17-ec13-46ff-accd-eececb829647"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DRouteConfig"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0d4da2a7-39a4-4ee8-aa1a-d8fe956be69e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="013b820d-2e22-49d7-a860-02b32a3be1c3">
+                <propertyInstance
+                  Id="bc262d8e-a40e-4864-86e7-c6069eff3b96"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b014941-72d0-4578-a17d-831b7313d9a3">
+                <propertyInstance
+                  Id="dfe47cbc-5316-482b-8ed0-3ba50475b637"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e807294-dc9a-4762-9360-750fb690ef1b">
+                <propertyInstance
+                  Id="4345ff1c-b20e-4c91-a45f-36c68cb9114f"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="12de2a94-5d61-4794-8bd1-e2292782f14e">
+                <propertyInstance
+                  Id="1891d611-e36b-4a13-b450-78355638aba1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="06863621-d9eb-4ce5-b98a-87c8a493179d">
+                <propertyInstance
+                  Id="98789d0c-2485-498c-aade-20be66155a3b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="44d5737c-5339-4f0e-834d-ee13664c7620"
+            name="RegisterRoutes"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="82725a6c-0c13-4c1a-b561-c84770b945ed"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DRouteConfig Member%3D(Name%3DRegisterRoutes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Routing Type%3DRouteCollection)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="74431c5a-5189-4ac4-8c3c-4dc01992100c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9dd46766-a11c-4b3d-9cab-4a0c6f30c805">
+                    <propertyInstance
+                      Id="91dae0db-280b-40eb-99b9-394ce2c72dfd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e24f2c4e-27c1-46bc-a68e-1cd167df509a">
+                    <propertyInstance
+                      Id="76d59afd-5b60-4e1e-bda1-9819e99deebb"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae68726c-73ee-4088-b644-22d7b1b00da6">
+                    <propertyInstance
+                      Id="e332b739-a7ce-4cae-92c0-953ca50aa37d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38787d4b-3bfb-467e-8029-8938f13c6d4d">
+                    <propertyInstance
+                      Id="47d49596-769d-4f87-8e19-84396f0f6844"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e8e3a0e-7519-4aa1-a1d6-e3b927bfd4aa">
+                    <propertyInstance
+                      Id="eb314a9b-cd64-4ff1-8d0f-9d6ed09835f2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="54476f0e-fd6b-4ad7-9cb1-c7088aa21940">
+                    <propertyInstance
+                      Id="7fa639d1-b852-4086-bb38-f3edfb3c7622"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="51864445-07b6-4189-9edd-dd88f4e5c683"
+                  name="routes"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f9fc2193-c359-4b1d-bf58-7e6eef9624df"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DRouteConfig Member%3D(Name%3DRegisterRoutes OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Web.dll&quot; Namespace%3DSystem.Web.Routing Type%3DRouteCollection)]) ParameterIdentifier%3Droutes"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="266d63ef-80da-4b40-b7d2-16e84b33949c"
+                      LastKnownName="RouteCollection"
+                      LastKnownLocation="Package6_2032.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d41852d8-29f0-4752-8919-17089e411031"
+            name="RouteConfig"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b6cbe9fc-c93e-42af-b73c-ef2b75c8cc4b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2FMvcLab2%2FMvcLab2%2Fbin%2FMvcLab2.dll&quot; Namespace%3DMvcLab2 Type%3DRouteConfig Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="64f3f5f3-39cd-4876-a4c1-79bff9a4e0d0"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1cee2df-fe58-4675-8983-85a02d855e6d">
+                    <propertyInstance
+                      Id="effa8d04-bc0e-49da-897d-7a048e453daa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31f6685f-025f-447c-aec5-568f67c5f6ff">
+                    <propertyInstance
+                      Id="d8fb8519-875c-4536-b74f-cc99025e10a2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5af04a65-01e5-4fe7-a871-9745a501d718">
+                    <propertyInstance
+                      Id="285a632f-38bf-4cec-995e-938af02a9613"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="732cc697-35c9-4b03-8045-f4568183aa4c">
+                    <propertyInstance
+                      Id="068da336-83d7-400c-a093-819e1434f7b9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31ce7729-7d66-4feb-9290-c6ba6aa91f74">
+                    <propertyInstance
+                      Id="2926a4da-c565-460f-86a7-832894b12682"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7946b416-41de-4267-92ae-321456962733">
+                    <propertyInstance
+                      Id="14bfede7-22e0-493c-9676-434eff7e9d21"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2ad26337-51c5-4b41-b273-231e6b15d89f"
+        LastKnownName="Controllers"
+        LastKnownLocation="Package7_2032.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="44d0e94c-e7eb-4fd4-b89e-381d7334fb6d"
+        LastKnownName="Models"
+        LastKnownLocation="Package8_2032.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

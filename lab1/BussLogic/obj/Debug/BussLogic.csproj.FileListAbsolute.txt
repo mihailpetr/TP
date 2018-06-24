@@ -1,0 +1,14 @@
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\bin\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\bin\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\obj\Debug\BussLogic.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\obj\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\BussLogic\obj\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\bin\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\bin\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\obj\Debug\BussLogic.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\obj\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\BussLogic\obj\Debug\BussLogic.pdb

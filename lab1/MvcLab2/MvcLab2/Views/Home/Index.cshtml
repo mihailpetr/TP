@@ -1,0 +1,63 @@
+﻿@model MvcLab2.Models.InteractorModel
+
+@{
+    ViewBag.Title = "Поиск закусочных";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="~/Scripts/mapbasics.js" type="text/javascript"></script>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <style>
+        html, body, #map {
+            width: 99%;
+            height: 80%;
+            padding: 0px;
+            margin: 0;
+            margin-left: 10px;
+        }
+    </style>
+    <title>Index</title>
+</head>
+<body>
+    <div id="map"></div>
+    <br />
+    @using (Html.BeginForm())
+    {
+        <fieldset>
+            <legend>Задание параметров поиска</legend>
+            <div>
+                <label>Широта</label>
+                @Html.TextBox("latitude")
+            </div>
+            <div>
+                <label>Долгота</label>
+                @Html.TextBox("longitude")
+            </div>
+            <div>
+                <label>Радиус</label>
+                @Html.TextBox("radius")
+            </div>
+            <input type="submit" value="Найти места" />
+            <div class="row">
+                <div class="span6 offset4">
+                    <div class="block2">
+                        @if (Model.results != "")
+                        {
+                            <label class="h1">Результат</label>
+                            @Html.TextArea("results", new { @readonly = "readonly" })
+                        }
+                    </div>
+                </div>
+            </div>
+
+        </fieldset>
+    }
+</body>
+</html>

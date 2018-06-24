@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5b0af33d9fb6b74109439368"
+  },
+  "response": {
+    "confident": true,
+    "venues": [
+      {
+        "verified": false,
+        "name": "Киномакс",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 254,
+          "labeledLatLngs": [
+            {
+              "lat": 48.697722014134712,
+              "lng": 44.499766075902826,
+              "label": "display"
+            }
+          ],
+          "city": "Волгоград",
+          "cc": "RU",
+          "country": "Россия",
+          "postalCode": "400001",
+          "state": "Волгоградская обл.",
+          "formattedAddress": [
+            "Рабоче-Крестьянская ул., 10 (Профсоюзная ул.)",
+            "400001, Волгоград",
+            "Россия"
+          ],
+          "crossStreet": "Профсоюзная ул.",
+          "address": "Рабоче-Крестьянская ул., 10",
+          "lat": 48.697722014134712,
+          "lng": 44.499766075902826
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "4d02474037caa1cdd455e347",
+        "categories": [
+          {
+            "pluralName": "Multiplexes",
+            "primary": true,
+            "name": "Multiplex",
+            "shortName": "Cineplex",
+            "id": "4bf58dd8d48988d180941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Пять звёзд",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 350,
+          "labeledLatLngs": [
+            {
+              "lat": 48.697099467535786,
+              "lng": 44.501868782258242,
+              "label": "display"
+            }
+          ],
+          "city": "Волгоград",
+          "cc": "RU",
+          "country": "Россия",
+          "postalCode": "400001",
+          "state": "Волгоградская обл.",
+          "formattedAddress": [
+            "ТЦ «Ворошиловский» (Рабоче-Крестьянская ул., 9Б)",
+            "400001, Волгоград",
+            "Россия"
+          ],
+          "crossStreet": "Рабоче-Крестьянская ул., 9Б",
+          "address": "ТЦ «Ворошиловский»",
+          "lat": 48.697099467535786,
+          "lng": 44.501868782258242
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "4ccbe09defd2ef3b09baaa8b",
+        "categories": [
+          {
+            "pluralName": "Multiplexes",
+            "primary": true,
+            "name": "Multiplex",
+            "shortName": "Cineplex",
+            "id": "4bf58dd8d48988d180941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "1 Зал Киномакс",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 226,
+          "labeledLatLngs": [
+            {
+              "lat": 48.697967563510581,
+              "lng": 44.499970632108386,
+              "label": "display"
+            }
+          ],
+          "city": "Волгоград",
+          "cc": "RU",
+          "country": "Россия",
+          "state": "Волгоградская обл.",
+          "formattedAddress": [
+            "Р.Крестьянская 10",
+            "Волгоград",
+            "Россия"
+          ],
+          "address": "Р.Крестьянская 10",
+          "lat": 48.697967563510581,
+          "lng": 44.499970632108386
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "54e5a8b7498e4038ecd19ff1",
+        "categories": [
+          {
+            "pluralName": "Indie Movie Theaters",
+            "primary": true,
+            "name": "Indie Movie Theater",
+            "shortName": "Indie Movies",
+            "id": "4bf58dd8d48988d17e941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Кинотеатр \"Пирамида\"",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 898,
+          "labeledLatLngs": [
+            {
+              "lat": 48.704825143474977,
+              "lng": 44.509809992012308,
+              "label": "display"
+            }
+          ],
+          "cc": "RU",
+          "country": "Россия",
+          "formattedAddress": [
+            "Россия"
+          ],
+          "lat": 48.704825143474977,
+          "lng": 44.509809992012308
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "52fb5466498e5bbd5a3e2ccd",
+        "categories": [
+          {
+            "pluralName": "Multiplexes",
+            "primary": true,
+            "name": "Multiplex",
+            "shortName": "Cineplex",
+            "id": "4bf58dd8d48988d180941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Кинопарк",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 695,
+          "labeledLatLngs": [
+            {
+              "lat": 48.702299172463235,
+              "lng": 44.508796420275409,
+              "label": "display"
+            }
+          ],
+          "cc": "RU",
+          "country": "Россия",
+          "formattedAddress": [
+            "Россия"
+          ],
+          "lat": 48.702299172463235,
+          "lng": 44.508796420275409
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "4ef1f99393adff223de72a42",
+        "categories": [
+          {
+            "pluralName": "Multiplexes",
+            "primary": true,
+            "name": "Multiplex",
+            "shortName": "Cineplex",
+            "id": "4bf58dd8d48988d180941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Антикафе «Наше место»",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 752,
+          "labeledLatLngs": [
+            {
+              "lat": 48.694137593457761,
+              "lng": 44.494906419914969,
+              "label": "display"
+            }
+          ],
+          "city": "Волгоград",
+          "cc": "RU",
+          "country": "Россия",
+          "state": "Волгоградская обл.",
+          "formattedAddress": [
+            "ул. Огарёва, 7",
+            "Волгоград",
+            "Россия"
+          ],
+          "address": "ул. Огарёва, 7",
+          "lat": 48.694137593457761,
+          "lng": 44.494906419914969
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "53d0d9ef498e6668ee0de88f",
+        "categories": [
+          {
+            "pluralName": "Cafés",
+            "primary": true,
+            "name": "Café",
+            "shortName": "Café",
+            "id": "4bf58dd8d48988d16d941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Победа",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 942,
+          "labeledLatLngs": [
+            {
+              "lat": 48.708164961800804,
+              "lng": 44.496611494299181,
+              "label": "display"
+            }
+          ],
+          "cc": "RU",
+          "country": "Россия",
+          "formattedAddress": [
+            "Россия"
+          ],
+          "lat": 48.708164961800804,
+          "lng": 44.496611494299181
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "508ffb8fe4b006ec3fc97d16",
+        "categories": [
+          {
+            "pluralName": "Movie Theaters",
+            "primary": true,
+            "name": "Movie Theater",
+            "shortName": "Movie Theater",
+            "id": "4bf58dd8d48988d17f941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Победа",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 1001,
+          "labeledLatLngs": [
+            {
+              "lat": 48.707590774667707,
+              "lng": 44.507324932799165,
+              "label": "display"
+            }
+          ],
+          "city": "Волгоград",
+          "cc": "RU",
+          "country": "Россия",
+          "state": "Волгоградская обл.",
+          "formattedAddress": [
+            "ул. Коммунистическая, 1",
+            "Волгоград",
+            "Россия"
+          ],
+          "address": "ул. Коммунистическая, 1",
+          "lat": 48.707590774667707,
+          "lng": 44.507324932799165
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "4ea4297961af76b39d426706",
+        "categories": [
+          {
+            "pluralName": "Movie Theaters",
+            "primary": true,
+            "name": "Movie Theater",
+            "shortName": "Movie Theater",
+            "id": "4bf58dd8d48988d17f941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Киноклуб",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 983,
+          "labeledLatLngs": [
+            {
+              "lat": 48.705078627332412,
+              "lng": 44.510951781750968,
+              "label": "display"
+            }
+          ],
+          "cc": "RU",
+          "country": "Россия",
+          "formattedAddress": [
+            "Россия"
+          ],
+          "lat": 48.705078627332412,
+          "lng": 44.510951781750968
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "50c30ac9e4b0c5b6f3950bf1",
+        "categories": [
+          {
+            "pluralName": "Indie Movie Theaters",
+            "primary": true,
+            "name": "Indie Movie Theater",
+            "shortName": "Indie Movies",
+            "id": "4bf58dd8d48988d17e941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      },
+      {
+        "verified": false,
+        "name": "Пирамида",
+        "referralId": "v-1527444285",
+        "venueChains": [],
+        "hereNow": {
+          "count": 0,
+          "groups": [],
+          "summary": "Nobody here"
+        },
+        "contact": {},
+        "hasPerk": false,
+        "location": {
+          "distance": 895,
+          "labeledLatLngs": [
+            {
+              "lat": 48.704544764393447,
+              "lng": 44.510060483001574,
+              "label": "display"
+            }
+          ],
+          "city": "Волгоград",
+          "cc": "RU",
+          "country": "Россия",
+          "postalCode": "400131",
+          "state": "Волгоградская обл.",
+          "formattedAddress": [
+            "ТРЦ «Пирамида» (ул. Краснознаменская, 9)",
+            "400131, Волгоград",
+            "Россия"
+          ],
+          "crossStreet": "ул. Краснознаменская, 9",
+          "address": "ТРЦ «Пирамида»",
+          "lat": 48.704544764393447,
+          "lng": 44.510060483001574
+        },
+        "beenHere": {
+          "count": 0,
+          "unconfirmedCount": 0,
+          "marked": false,
+          "lastCheckinExpiredAt": 0
+        },
+        "stats": {
+          "checkinsCount": 0,
+          "tipCount": 0,
+          "visitsCount": 0,
+          "usersCount": 0
+        },
+        "id": "4f520ccbe4b0bf6b5ca93710",
+        "categories": [
+          {
+            "pluralName": "Multiplexes",
+            "primary": true,
+            "name": "Multiplex",
+            "shortName": "Cineplex",
+            "id": "4bf58dd8d48988d180941735",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_",
+              "suffix": ".png"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

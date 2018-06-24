@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="68bfd730-362f-4b65-9c77-957b69d8d2c9"
+  name="lab1Tests"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="c28f6825-ac88-4382-a4ce-19cded2eced5"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dlab1Tests"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="90ec74e0-0722-4b42-8ddf-460f0afd9795"
+        name="lab1Tests"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="2cb78081-d9bf-42f0-97c2-47b10cec2b33"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab3 — копия%2Flab1%2Flab1Tests%2Fbin%2FDebug%2Flab1Tests.dll&quot; Namespace%3Dlab1Tests Type%3Dlab1Tests"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="cb065b21-78f1-4341-b299-e1108b51c026"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa658b97-c87e-4a00-b6bf-421e4a2d1640">
+                <propertyInstance
+                  Id="5966bdec-514c-48f0-bd31-6f637c0c8b87"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aa6c3310-7e26-4266-83fe-1446efedb24a">
+                <propertyInstance
+                  Id="e30c4c3a-e0cd-422c-837b-d0b01b8d392d"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b41c99ee-e717-4e14-b35c-17f63b6a535a">
+                <propertyInstance
+                  Id="09dbebf0-b9d4-47d2-ba6d-584b78f53f4e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6b75e1c9-3389-4f33-9007-806cb3305ab1">
+                <propertyInstance
+                  Id="e3dde9f7-80b0-48cf-9bb6-45009faf29e0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="618ed9b8-9647-488b-90b3-fbdd880c5365">
+                <propertyInstance
+                  Id="aa6d42cf-75b4-4143-8aa6-aaad34852d27"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c0ace27a-9680-4f65-81ac-eb18aa35a4c3"
+            name="lab1Tests"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ddb071fd-28c0-41f5-8642-8cd749ee8212"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab3 — копия%2Flab1%2Flab1Tests%2Fbin%2FDebug%2Flab1Tests.dll&quot; Namespace%3Dlab1Tests Type%3Dlab1Tests Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="13e505dd-7d8c-40b8-b846-7d591dc10e66"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b712898-4c67-4301-8830-4d4f5d52d922">
+                    <propertyInstance
+                      Id="4ef41f21-fe6c-45a3-8ec8-c976f2f9ff8a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51df915b-4c53-43d0-a305-0bc4e4e556a2">
+                    <propertyInstance
+                      Id="b8de8288-781a-43ad-95ba-ef4083f3b086"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47871c8e-7bc4-4111-9758-c1fefb400815">
+                    <propertyInstance
+                      Id="f5253bf7-7b28-4a6a-a717-20e01c429a41"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ad3cb06-5c88-49a9-8fcc-499fe7e2c198">
+                    <propertyInstance
+                      Id="b9dc183c-d1e9-4dce-b2ac-5c7ef454027a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12c87e9c-23f5-4a04-91ae-7197c68528aa">
+                    <propertyInstance
+                      Id="47eada00-8621-4def-8741-36aed1cb4ce5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73daba6d-44d8-4d31-9ec7-66159dce8f03">
+                    <propertyInstance
+                      Id="f4b2873c-ef38-4d05-8f32-c003851d38de"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5aa79bf7-a6f0-493c-9747-8ec1ecbc0915"
+            name="check_is_digit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b7cd15ff-40bf-4e13-a32b-021cf06bc9d4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab3 — копия%2Flab1%2Flab1Tests%2Fbin%2FDebug%2Flab1Tests.dll&quot; Namespace%3Dlab1Tests Type%3Dlab1Tests Member%3Dcheck_is_digit"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="466d7cd0-0c8e-438c-814c-783264789f5f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5ee08cb3-a16d-446b-960b-6761468eb95b">
+                    <propertyInstance
+                      Id="49334d7f-2e55-4b1a-b68b-5ba2e387aa49"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1e86534-f95e-468d-b984-c9cd05e6e76b">
+                    <propertyInstance
+                      Id="9d7fad29-aa78-4e97-963d-d02fe20e2dee"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a26c39d-d604-4a06-8fd0-10a27a094363">
+                    <propertyInstance
+                      Id="000c7930-6953-4fa8-9fb7-392f63180dbd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="574f0429-9e58-478f-87ed-258054ef4872">
+                    <propertyInstance
+                      Id="0bedcdc6-3788-46fe-b8b5-141ecc71e266"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcbb9e1c-a9eb-4fb0-b283-9a3af36a286a">
+                    <propertyInstance
+                      Id="5149a2fc-8cea-40ce-8a06-d01105d8712c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59cb84fe-8333-461e-84e0-7f80bdf34d3a">
+                    <propertyInstance
+                      Id="3dbea7fe-24c5-4d4e-8b8f-5dd9f542358f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b85cbdbc-09b2-4c42-b77b-b145c061e9ff"
+            name="testHelperAfter"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7ffd5421-9c35-4134-abb7-28707d020d8b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab3 — копия%2Flab1%2Flab1Tests%2Fbin%2FDebug%2Flab1Tests.dll&quot; Namespace%3Dlab1Tests Type%3Dlab1Tests Member%3DtestHelperAfter"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4dda04d0-d2e4-4397-b770-5e183f2650f5"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ceb1b418-d90a-4ea2-8546-901b1d20466a">
+                    <propertyInstance
+                      Id="971b8bc3-d237-4f86-882e-e0fd7caf9016"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8bd9b1a8-de99-49f8-a323-ef94cc7a0de7">
+                    <propertyInstance
+                      Id="07afdc1d-a3bb-46c6-9896-6577e4cbda22"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7323f5d0-00fb-4553-94cf-89a1f8a27455">
+                    <propertyInstance
+                      Id="27eabce5-7534-47df-afae-cbed3cad0156"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6cf2cc98-e89f-4cc6-aa71-24a35e77117e">
+                    <propertyInstance
+                      Id="0e5b10f1-65cd-466e-8e40-ef6a1ed59e34"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4429a924-3c9c-4f37-aa89-a1e4cd1e69e9">
+                    <propertyInstance
+                      Id="73f81840-777b-433f-81fc-a723d7fede35"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="608e0e8f-7dd5-49f3-a330-f337ee1af927">
+                    <propertyInstance
+                      Id="8250cae4-87f1-408f-8737-9f13e7a36eec"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="65b30ad3-1e33-4d90-8501-574dda455aac"
+            name="testHelperUntil"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c017d513-f124-4988-af61-ed89d56656ee"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2F5 курс 2 сем%2FТП%2Flab3 — копия%2Flab1%2Flab1Tests%2Fbin%2FDebug%2Flab1Tests.dll&quot; Namespace%3Dlab1Tests Type%3Dlab1Tests Member%3DtestHelperUntil"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="9e7037a2-d61e-458b-953b-78223dd79cbf"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6325a4ec-8cba-4126-bf5e-f91d382f3cb7">
+                    <propertyInstance
+                      Id="909d834e-c4d2-4e0f-86a6-e45143f09f32"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c2a884c-2e70-44d1-b885-fe3f573e6877">
+                    <propertyInstance
+                      Id="2d45a5bd-319f-4471-9371-5f0aec8272f6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="435bc4d4-0f65-464f-bc08-79f658e63b6c">
+                    <propertyInstance
+                      Id="3e4036dd-645f-41ef-9ef6-2f6ff7626c4b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6df46955-4319-42b1-9a6f-eebbbbd99b02">
+                    <propertyInstance
+                      Id="61915a84-bfa0-4d54-8e88-f4120202aa0d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5083b96-954a-4a9b-9264-4195f426a4e9">
+                    <propertyInstance
+                      Id="352493f5-105e-4cfd-9b74-a1c1face58cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79f0bcbc-b85a-44e1-bded-ce39211e9936">
+                    <propertyInstance
+                      Id="e2d5facb-b948-42cb-922a-6b537a220978"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

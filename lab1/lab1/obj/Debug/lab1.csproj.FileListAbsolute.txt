@@ -1,0 +1,63 @@
+D:\5 курс 2 сем\ТП\lab1\lab1\bin\Debug\lab1.exe.config
+D:\5 курс 2 сем\ТП\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\5 курс 2 сем\ТП\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\5 курс 2 сем\ТП\lab1\lab1\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab1\lab1\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab1\lab1\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab1\lab1\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab1\lab1\obj\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab1\lab1\obj\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\lab1.exe.config
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\obj\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\obj\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Helper.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Helper.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Foursquare.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Foursquare.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Interactor.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1\bin\Debug\Interactor.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\lab1.exe.config
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\obj\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\obj\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\obj\Debug\lab1.Form1.resources
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\lab1.exe.config
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\obj\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\obj\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\obj\Debug\lab1.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.Cache
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Castle.Core.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Moq.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\System.ValueTuple.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Castle.Core.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Moq.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\Moq.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\bin\Debug\System.ValueTuple.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1\obj\Debug\lab1.Form1.resources

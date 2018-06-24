@@ -1,0 +1,89 @@
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\obj\Debug\lab1Tests.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\obj\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\obj\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.App.config
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\obj\Debug\Interop.WinHttp.dll
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.ResolveComReference.cache
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\lab1Tests.dll.config
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.dll
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.dll
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.xml
+D:\5 курс 2 сем\ТП\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.xml
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.App.config
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\obj\Debug\lab1Tests.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\obj\Debug\Interop.WinHttp.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.ResolveComReference.cache
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\obj\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\lab1Tests.dll.config
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Helper.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Helper.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.xml
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.xml
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\obj\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Foursquare.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Foursquare.pdb
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Interactor.dll
+D:\5 курс 2 сем\ТП\lab3\lab1\lab1Tests\bin\Debug\Interactor.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\lab1Tests.dll.config
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\Helper.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\Helper.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.xml
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.xml
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\bin\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.App.config
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\obj\Debug\lab1Tests.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\obj\Debug\Interop.WinHttp.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.ResolveComReference.cache
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\obj\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab3 — копия\lab1\lab1Tests\obj\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\lab1Tests.dll.config
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\lab1.exe
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\BussLogic.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\lab1.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Newtonsoft.Json.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.Net.Http.Extensions.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.Net.Http.Primitives.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\BussLogic.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.App.config
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\obj\Debug\lab1Tests.csprojResolveAssemblyReference.cache
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\obj\Debug\Interop.WinHttp.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\obj\Debug\lab1Tests.csproj.ResolveComReference.cache
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\obj\Debug\lab1Tests.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\obj\Debug\lab1Tests.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Castle.Core.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Moq.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.ValueTuple.dll
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Castle.Core.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Moq.pdb
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\Moq.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\5 курс 2 сем\ТП\lab4\lab1\lab1Tests\bin\Debug\System.ValueTuple.xml

@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MvcLab2.BundleConfig">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.FilterConfig">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.RouteConfig">
+    <Position X="2.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.WebApiConfig">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\WebApiConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.MvcApplication">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.Controllers.HomeController">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAQ=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.Models.FoursquareModel">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="MvcLab2.Models.FoursquareModel.VenuePage" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Category" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Meta" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Stats" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Response" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Notification" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Specials" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Venue" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Location" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Item" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.RootObject" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Icon" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Menu" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.Contact" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.BeenHere" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="MvcLab2.Models.FoursquareModel.HereNow" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Models\FoursquareModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAQAAAAAACAAAQAEAhCgAAAAAAQAQAKCAAAACA=</HashCode>
+      <FileName>Models\FoursquareModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.Models.HelperModel">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAgAAAAAAACAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\HelperModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.Models.InteractorModel">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAQgAQCAgAAAgEAAAAAAAACAAAAAgAAAAAAgAAAAA=</HashCode>
+      <FileName>Models\InteractorModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.Models.JsonModel">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\JsonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MvcLab2.Models.JavaScriptSerializerExt">
+    <Position X="4" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\JsonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
